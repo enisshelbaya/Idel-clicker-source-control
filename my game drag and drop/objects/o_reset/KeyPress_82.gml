@@ -1,19 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.stats.cost_click.cost_click_power_10 = 50;
-global.stats.cost_click.cost_click_power_100 = 350;
-global.stats.cost_click.cost_click_power_1000 = 9500;
-global.stats.cost_click.cost_click_power_250 = 2750;
-global.stats.cost_click.cost_click_power_50 = 650;
-global.stats.cost_click.cost_click_power_500 = 5000;
+global.stats.cost_click.cost_click_power_10 = 15;
+global.stats.cost_click.cost_click_power_100 = 1100;
+global.stats.cost_click.cost_click_power_1000 = 1400000;
+global.stats.cost_click.cost_click_power_250 = 12000;
+global.stats.cost_click.cost_click_power_50 = 100;
+global.stats.cost_click.cost_click_power_500 = 130000;
 //
-global.stats.cost_manager.cost_manager_power_1 = 50;
-global.stats.cost_manager.cost_manager_power_10 = 550;
-global.stats.cost_manager.cost_manager_power_100 = 2500;
-global.stats.cost_manager.cost_manager_power_1000 = 20000;
-global.stats.cost_manager.cost_manager_power_250 = 5000;
-global.stats.cost_manager.cost_manager_power_50 = 1000;
-global.stats.cost_manager.cost_manager_power_500 = 11000;
+global.stats.cost_manager.cost_manager_power_1 = 15;
+global.stats.cost_manager.cost_manager_power_10 = 100;
+global.stats.cost_manager.cost_manager_power_100 = 12000;
+global.stats.cost_manager.cost_manager_power_1000 = 20000000;
+global.stats.cost_manager.cost_manager_power_250 = 130000;
+global.stats.cost_manager.cost_manager_power_50 = 1100;
+global.stats.cost_manager.cost_manager_power_500 = 1400000;
 //
 global.stats.counter_click_power.counter_click_power_10 = 0;
 global.stats.counter_click_power.counter_click_power_100 = 0;

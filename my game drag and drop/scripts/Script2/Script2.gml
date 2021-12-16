@@ -2,22 +2,22 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 global.stats = {
   cost_click: {
-	cost_click_power_10: 50,
-	cost_click_power_100: 350,
-	cost_click_power_1000:9500,
-	cost_click_power_250:2750,
-	cost_click_power_50:650,
-	cost_click_power_500:5000
+	cost_click_power_10: 15,
+	cost_click_power_100: 1100,
+	cost_click_power_1000:  1400000,
+	cost_click_power_250: 12000,
+	cost_click_power_50: 100,
+	cost_click_power_500: 130000
   },
   
   cost_manager: {
-	  cost_manager_power_1:50,
- 	  cost_manager_power_10:550,
-	  cost_manager_power_100:2500,
-	  cost_manager_power_1000:20000,
-	  cost_manager_power_250:5000,
-	  cost_manager_power_50:1000,
-	  cost_manager_power_500:11000	
+	  cost_manager_power_1: 15,
+ 	  cost_manager_power_10: 100,
+	  cost_manager_power_100: 12000,
+	  cost_manager_power_1000:20000000,
+	  cost_manager_power_250: 130000,
+	  cost_manager_power_50:1100,
+	  cost_manager_power_500:1400000	
   },
   
   counter_click_power: {
