@@ -5,7 +5,8 @@
 
 
 #macro FIRSTLETTER 92 // the ascii code of "a" minus 5
-
+//coverts a number to an array of the proper lengths 
+// converts the array into it's abbreviated forms 
 function Number_Abbreviate(array_) {
 	var numLog_ = array_length(array_);
 	var realnum_    = 0;
@@ -28,19 +29,19 @@ function Number_Abbreviate(array_) {
 	var num_ = string(realnum_) + decimalnum_;
 	switch (numLog_-1) {
 	    case 0: unit = "";  break;
-		case 1: unit = "";  break;
-	    case 2: unit = "K"; break;
-		case 3: unit = "M"; break;
-		case 4: unit = "B"; break;
-		case 5: unit = "T"; break;
+		case 1: unit = "K";  break;
+	    case 2: unit = "M"; break;
+		case 3: unit = "B"; break;
+		case 4: unit = "T"; break;
 	    default:
-			var firstNotation = (numLog_-7) div 26;
-			var secondNotation = (numLog_-7) mod 26;
+			var firstNotation = (numLog_-6) div 26;
+			var secondNotation = (numLog_-6) mod 26;
 			unit =  chr(firstNotation+ord("a"))+chr(secondNotation+ord("a"));
 	        break;
 	}
 	return  num_ + unit;
 }
+
 
 
 function Number_Adjust(array_){

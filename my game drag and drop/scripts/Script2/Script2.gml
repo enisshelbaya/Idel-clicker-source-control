@@ -44,7 +44,7 @@ global.stats = {
       manager_strength : 0,
       Currency_amount : 0,
 	  time : 0
+	  
   },
 }
-
 
