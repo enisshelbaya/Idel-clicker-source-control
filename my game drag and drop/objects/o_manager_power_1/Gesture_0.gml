@@ -4,8 +4,8 @@ if (global.stats.random_vars.Currency_amount> global.stats.cost_manager.cost_man
 {
 global.stats.random_vars.manager_strength += 1;
 global.stats.random_vars.Currency_amount -= global.stats.cost_manager.cost_manager_power_1;
-global.stats.cost_manager.cost_manager_power_1 += 1000
 global.stats.counter_manager.counter_manager_power_1 += 1
+global.stats.cost_manager.cost_manager_power_1 = 15*power(1.175,global.stats.counter_manager.counter_manager_power_1)
 }
 
 

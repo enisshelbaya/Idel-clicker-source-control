@@ -4,6 +4,6 @@ if (global.stats.random_vars.Currency_amount > global.stats.cost_manager.cost_ma
 {
 global.stats.random_vars.manager_strength += 1000;
 global.stats.random_vars.Currency_amount -= global.stats.cost_manager.cost_manager_power_1000;
-global.stats.cost_manager.cost_manager_power_1000 += 500000
-global.stats.counter_manager.counter_manager_power_1000+= 1
+global.stats.counter_manager.counter_manager_power_1000 += 1
+global.stats.cost_manager.cost_manager_power_1000 = 20000000*power(1.175,global.stats.counter_manager.counter_manager_power_1000)
 }
