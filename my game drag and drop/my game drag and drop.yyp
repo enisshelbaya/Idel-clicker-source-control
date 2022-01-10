@@ -63,7 +63,6 @@
     {"id":{"name":"s_button_right","path":"sprites/s_button_right/s_button_right.yy",},"order":5,},
     {"id":{"name":"o_manager_power_250","path":"objects/o_manager_power_250/o_manager_power_250.yy",},"order":1,},
     {"id":{"name":"o_click_power_250","path":"objects/o_click_power_250/o_click_power_250.yy",},"order":0,},
-    {"id":{"name":"create_button","path":"scripts/create_button/create_button.yy",},"order":3,},
     {"id":{"name":"o_counter_50","path":"objects/o_counter_50/o_counter_50.yy",},"order":1,},
   ],
   "Options": [

@@ -2,8 +2,9 @@
 // Properties
 
 width = 20;
-height = 90;
+height = 20;
+rad = 50;
 hover = 0;
-image_speed=0;
+
 
 
