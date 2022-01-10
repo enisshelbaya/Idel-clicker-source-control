@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_button_click_power_right",
-    "path": "sprites/s_button_click_power_right/s_button_click_power_right.yy",
+    "name": "s_button_right",
+    "path": "sprites/s_button_right/s_button_right.yy",
   },
   "solid": false,
   "visible": true,

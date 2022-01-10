@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_button_managers_left",
-    "path": "sprites/s_button_managers_left/s_button_managers_left.yy",
+    "name": "s_button_left",
+    "path": "sprites/s_button_left/s_button_left.yy",
   },
   "solid": false,
   "visible": true,

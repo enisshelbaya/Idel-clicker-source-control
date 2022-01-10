@@ -1,4 +1,4 @@
-
+// abbreviates currency amount
 num_process = global.stats.random_vars.Currency_amount;
 number_array=[]
 while (num_process >= 1){
@@ -6,3 +6,5 @@ while (num_process >= 1){
     array_push(number_array,floor(frac(num_process) * 1000));
 }
 number_abbreviated = Number_Abbreviate(number_array)
+
+
