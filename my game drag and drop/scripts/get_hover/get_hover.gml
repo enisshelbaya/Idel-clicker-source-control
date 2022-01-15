@@ -16,3 +16,9 @@ function get_hover_circule() {
 	return point_in_circle(_mouseX, _mouseY, x + width, y, rad);
 
 }
+
+function get_hover_rectangle_non_gui() {
+	var _mouseX = device_mouse_x(0);
+	var _mouseY = device_mouse_y(0);
+	return point_in_rectangle(_mouseX, _mouseY, x, y, x + width, y + height);
+}
