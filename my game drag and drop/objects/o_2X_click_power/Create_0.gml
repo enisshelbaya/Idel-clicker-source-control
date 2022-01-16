@@ -1,10 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
-TwoX_click_power = 0;
+twox_exist = 0;
+count = 0;
+countdown = 30;
+_framerate_countdown = 60;
+alarm[1] = room_speed*5;
+_y = irandom_range(140,400);
+_x = irandom_range(70,698);
 
 
-if (TwoX_click_power = 1)
-{
-	global.stats.random_vars.Clicker_Power = global.stats.random_vars.Clicker_Power * 2;
-}
+
+
 
