@@ -58,7 +58,6 @@
     {"id":{"name":"o_manager_power_50","path":"objects/o_manager_power_50/o_manager_power_50.yy",},"order":1,},
     {"id":{"name":"r_click_power_upgrades","path":"rooms/r_click_power_upgrades/r_click_power_upgrades.yy",},"order":7,},
     {"id":{"name":"r_main","path":"rooms/r_main/r_main.yy",},"order":3,},
-    {"id":{"name":"oButton","path":"objects/oButton/oButton.yy",},"order":2,},
     {"id":{"name":"r_gui_manager_strength","path":"objects/r_gui_manager_strength/r_gui_manager_strength.yy",},"order":0,},
     {"id":{"name":"o_manager_power_1000","path":"objects/o_manager_power_1000/o_manager_power_1000.yy",},"order":1,},
     {"id":{"name":"s_2x","path":"sprites/s_2x/s_2x.yy",},"order":12,},
