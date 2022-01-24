@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_line_width_color(0,1,768,1,200,c_black,c_black)
+draw_line_width_color(0,1,768,1,200,c_white,c_white)
 
 
 draw_set_font(f_Arial_Size_48)

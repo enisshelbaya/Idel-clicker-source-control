@@ -15,4 +15,4 @@ else
 	draw_text(room_width / 2, o_click_power_500.y+100, "Cost:" + number_abbreviated)
 }
 // draws line after the cost 
-draw_line_width_color(0,o_click_power_500.y+195, 768 , o_click_power_500.y+195,30,c_white,c_black)
+draw_line_width_color(0,o_click_power_500.y+195, 768 , o_click_power_500.y+195,30,c_white,c_white)

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_manager_power_1",
-    "path": "sprites/s_manager_power_1/s_manager_power_1.yy",
+    "name": "manager_strength_2X",
+    "path": "sprites/manager_strength_2X/manager_strength_2X.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,17 +21,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":13,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "manager_upgrade_1000",
-    "path": "folders/Objects/o_manager_power_upgrades/manager_upgrade_1000.yy",
+    "name": "o_2X_manager _strength",
+    "path": "folders/Objects/o_2X_manager _strength.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_manager_power_1000",
+  "name": "o_2X_M_S",
   "tags": [],
   "resourceType": "GMObject",
 }
