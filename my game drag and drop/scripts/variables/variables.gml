@@ -43,7 +43,8 @@ global.stats = {
 	  Clicker_Power : 1,
       manager_strength : 0,
       Currency_amount : 0,
-	  time : 0
+	  time : 0,
+	  taps : 0
 	  
   },
 }

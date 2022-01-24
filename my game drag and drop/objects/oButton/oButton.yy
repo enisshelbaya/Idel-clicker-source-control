@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "s_click_power_10",
-    "path": "sprites/s_click_power_10/s_click_power_10.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,17 +18,18 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":13,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "o_click_power_1000",
-    "path": "folders/Objects/o_click_power_upgrades/o_click_power_1000.yy",
+    "name": "main_gui",
+    "path": "folders/Objects/UI/main_gui.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_click_power_1000",
+  "name": "oButton",
   "tags": [],
   "resourceType": "GMObject",
 }
