@@ -5,10 +5,8 @@ count = 0;
 countdown = 30;
 _framerate_countdown = 60;
 alarm[1] = room_speed*5;
-_y = irandom_range(140,400);
-_x = irandom_range(70,698);
-
-
+_y = irandom_range(view_hport[0]/10,view_hport[0]*0.25);
+_x = irandom_range(view_wport[0]/10 ,view_wport[0]*0.9);
 
 
 
