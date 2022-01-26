@@ -30,8 +30,15 @@ global.stats.counter_manager.counter_manager_power_250 = 0;
 global.stats.counter_manager.counter_manager_power_50 = 0;
 global.stats.counter_manager.counter_manager_power_500 = 0;
 //
-global.stats.random_vars.Clicker_Power = 1; // the game will crash if this set to 0
-global.stats.random_vars.manager_strength = 1; // the game will crash if this set to 0
-global.stats.random_vars.Currency_amount = 1;
-global.stats.random_vars.time = 0;  // the game will crash if this set to 0
-global.stats.random_vars.taps = 1; 
+
+global.stats.multiplyers.twox_click_power_count = 0;
+global.stats.multiplyers.twox_click_power_exist = 0;
+global.stats.multiplyers.twox_manager_strength_count = 0;
+global.stats.multiplyers.twox_manager_strength_exist = 0;
+
+//
+global.stats.random_vars.Clicker_Power = 1; 
+global.stats.random_vars.manager_strength = 0; 
+global.stats.random_vars.Currency_amount = 0;
+global.stats.random_vars.time = 0; 
+global.stats.random_vars.taps = 0; 

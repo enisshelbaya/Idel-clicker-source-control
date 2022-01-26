@@ -39,6 +39,7 @@ global.stats = {
 	  counter_manager_power_500:0	
   },
   
+  
   random_vars:{
 	  Clicker_Power : 1,
       manager_strength : 0,
@@ -46,6 +47,14 @@ global.stats = {
 	  time : 0,
 	  taps : 0
 	  
+  },
+  
+    multiplyers:{
+	  twox_click_power_count :0,
+	  twox_click_power_exist :0,
+	  twox_manager_strength_count :0,
+	  twox_manager_strength_exist :0
+
   },
 }
 

@@ -3,11 +3,10 @@
 
 // Thank you for using my Program
 
-
 #macro FIRSTLETTER 92 // the ascii code of "a" minus 5
 //coverts a number to an array of the proper lengths 
 // converts the array into it's abbreviated forms 
-function Number_Abbreviate(array_) {
+function Number_Abbreviate(array_) {                        // this will crash if a variable has a value of 0
 	var numLog_ = array_length(array_);
 	var realnum_    = 0;
 	var decimalnum_ = "";
