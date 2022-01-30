@@ -27,7 +27,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "o_2X_click_power",
-    "path": "folders/Objects/o_2X_click_power.yy",
+    "path": "folders/Objects/Multiplyers/o_2X_click_power.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_2X_click_power",

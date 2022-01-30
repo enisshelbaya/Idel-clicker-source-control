@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 // loading in variables from json file
+
 		if (file_exists("savedgame.save"))
 		{
 			var _buffer = buffer_load("savedgame.save");
@@ -39,4 +40,20 @@ global.stats.random_vars.manager_strength = global.stats.random_vars.manager_str
 
 }
 
+// 5x click power multiplyer 
+if (global.stats.multiplyers.fivex_click_power_count = 1)
+{
+global.stats.multiplyers.fivex_click_power_count = 0;
+global.stats.random_vars.Clicker_Power = global.stats.random_vars.Clicker_Power / 5;
+
+}
+
+// 5x manager strength 
+
+if (global.stats.multiplyers.fivex_manager_strength_count = 1)
+{
+global.stats.multiplyers.fivex_manager_strength_count = 0;
+global.stats.random_vars.manager_strength = global.stats.random_vars.manager_strength / 5;
+
+}
 

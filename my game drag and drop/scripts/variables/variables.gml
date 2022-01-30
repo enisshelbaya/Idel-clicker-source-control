@@ -52,8 +52,15 @@ global.stats = {
     multiplyers:{
 	  twox_click_power_count :0,
 	  twox_click_power_exist :0,
+	  //
 	  twox_manager_strength_count :0,
-	  twox_manager_strength_exist :0
+	  twox_manager_strength_exist :0,
+	  //
+	  fivex_click_power_count :0,
+	  fivex_click_power_exist :0,
+	  //
+	  fivex_manager_strength_count :0,
+	  fivex_manager_strength_exist :0
 
   },
 }
