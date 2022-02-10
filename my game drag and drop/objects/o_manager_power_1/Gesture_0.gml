@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (global.stats.random_vars.taps > 1000)
+if (global.stats.random_vars.taps > 500)
 {
 	image_index = 0;
 		if (global.stats.random_vars.Currency_amount> global.stats.cost_manager.cost_manager_power_1)

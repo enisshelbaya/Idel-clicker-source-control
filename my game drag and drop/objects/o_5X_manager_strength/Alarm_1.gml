@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if (room = r_main)
 {
-instance_create_layer(_x,_y,"instances",o_5X_ms)
+instance_create_layer(irandom_range(view_hport[0]/10,view_hport[0]*0.25),irandom_range(view_wport[0]/10 ,view_wport[0]*0.9),"instances",o_5X_ms)
 }
 global.stats.multiplyers.fivex_manager_strength_exist = 1;
 o_5X_manager_strength.alarm[1] = room_speed*120;

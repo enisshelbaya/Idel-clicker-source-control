@@ -15,6 +15,7 @@ image_index=1
 alarm[0]= room_speed*0.08
 global.stats.random_vars.Currency_amount += global.stats.random_vars.Clicker_Power;
 global.stats.random_vars.taps += 1;
+instance_create_layer(mouse_x, mouse_y, "Effect", o_click_count_effect);
 
 }
 

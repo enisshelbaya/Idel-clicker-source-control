@@ -15,4 +15,5 @@ if (global.stats.random_vars.taps>50000)
 else 
 {
 image_index = 1;
+
 }

@@ -1,7 +1,8 @@
 /// @description 
 menuOpen = false;
-width = 200 ;
-height= 88 ;
+height = 100;
+width = 100;
+
 hover = 0;
 
 

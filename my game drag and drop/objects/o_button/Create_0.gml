@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-width = 10;
-height = 20;
-rad = 88;
+width = 0;
+height = 0;
+rad = 200;
 hover = 0;

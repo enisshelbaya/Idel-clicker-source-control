@@ -13,11 +13,11 @@ function get_hover_rectangle() {
 function get_hover_circule() {
 	var _mouseX = device_mouse_x_to_gui(0);
 	var _mouseY = device_mouse_y_to_gui(0);
-	return point_in_circle(_mouseX, _mouseY, x + width, y, rad);
+	return point_in_circle(_mouseX, _mouseY, x + width , y + height, rad);
 
 }
 
-function get_hover_rectangle_non_gui() {
+function get_hover() {
 	var _mouseX = device_mouse_x(0);
 	var _mouseY = device_mouse_y(0);
 	return point_in_rectangle(_mouseX, _mouseY, x, y, x + width, y + height);
