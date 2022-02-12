@@ -1,8 +1,6 @@
 /// @description 
-menuOpen = false;
-height = 100;
-width = 100;
-
-hover = 0;
-
+image_xscale=0.195313;
+image_yscale=0.195313;
+x = view_wport[0]*0.61;
+y = view_hport[0]*0.90;
 

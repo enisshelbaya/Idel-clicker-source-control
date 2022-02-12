@@ -1,1 +1,3 @@
 settings icon "https://www.flaticon.com/free-icons/settings" Settings icons created by Ilham Fitrotul Hayat 
+store icon "https://www.flaticon.com/free-icons/shop" Shop icons created by Gregor Cresnar 
+level up icon "https://www.flaticon.com/free-icons/level-up" Level up icons created by Freepik 

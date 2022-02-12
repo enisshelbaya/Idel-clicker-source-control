@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_manager_power_1",
-    "path": "sprites/s_manager_power_1/s_manager_power_1.yy",
+    "name": "s_click_power_10",
+    "path": "sprites/s_click_power_10/s_click_power_10.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-num_process = global.stats.cost_click.cost_click_power_10;
+num_process = global.stats.click_power.click_power_cost;
 number_array=[]
 while (num_process >= 1){
     num_process = num_process / 1000;

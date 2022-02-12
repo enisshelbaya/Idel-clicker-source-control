@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 3,
-  "bbox_right": 3977,
-  "bbox_top": 10,
-  "bbox_bottom": 3997,
+  "bbox_left": 0,
+  "bbox_right": 479,
+  "bbox_top": 0,
+  "bbox_bottom": 479,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 4000,
-  "height": 4000,
+  "width": 480,
+  "height": 480,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,10 +24,10 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"270d3642-dbcd-42c4-a343-8a823afb8cfe","path":"sprites/s_menu/s_menu.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"270d3642-dbcd-42c4-a343-8a823afb8cfe","path":"sprites/s_menu/s_menu.yy",},"LayerId":{"name":"c3df84a1-2cc7-4406-81ae-04965eb46781","path":"sprites/s_menu/s_menu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"270d3642-dbcd-42c4-a343-8a823afb8cfe","path":"sprites/s_menu/s_menu.yy",},"LayerId":{"name":"a61013b8-2071-48c6-80be-1792cb2d3210","path":"sprites/s_menu/s_menu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_menu","path":"sprites/s_menu/s_menu.yy",},"resourceVersion":"1.0","name":"270d3642-dbcd-42c4-a343-8a823afb8cfe","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f628ea5b-61af-4e26-8ade-2f5d89f04204","path":"sprites/s_menu/s_menu.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f628ea5b-61af-4e26-8ade-2f5d89f04204","path":"sprites/s_menu/s_menu.yy",},"LayerId":{"name":"c3df84a1-2cc7-4406-81ae-04965eb46781","path":"sprites/s_menu/s_menu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"f628ea5b-61af-4e26-8ade-2f5d89f04204","path":"sprites/s_menu/s_menu.yy",},"LayerId":{"name":"a61013b8-2071-48c6-80be-1792cb2d3210","path":"sprites/s_menu/s_menu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_menu","path":"sprites/s_menu/s_menu.yy",},"resourceVersion":"1.0","name":"f628ea5b-61af-4e26-8ade-2f5d89f04204","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"s_menu","path":"sprites/s_menu/s_menu.yy",},
@@ -42,7 +42,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a5dbd607-f040-48ad-be17-0a64e7e541c4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"270d3642-dbcd-42c4-a343-8a823afb8cfe","path":"sprites/s_menu/s_menu.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"43508d3d-bedd-4dd7-baf9-3804dc4d5c46","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f628ea5b-61af-4e26-8ade-2f5d89f04204","path":"sprites/s_menu/s_menu.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -55,8 +55,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 2000,
-    "yorigin": 2000,
+    "xorigin": 240,
+    "yorigin": 240,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_menu","path":"sprites/s_menu/s_menu.yy",},
