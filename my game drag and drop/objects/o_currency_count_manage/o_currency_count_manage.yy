@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_currency_count",
+  "name": "o_currency_count_manage",
   "tags": [],
   "resourceType": "GMObject",
 }
