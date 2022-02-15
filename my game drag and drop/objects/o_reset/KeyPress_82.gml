@@ -15,13 +15,7 @@ global.stats.cost_manager.cost_manager_power_250 = 130000;
 global.stats.cost_manager.cost_manager_power_50 = 1100;
 global.stats.cost_manager.cost_manager_power_500 = 1400000;
 //
-global.stats.counter_click_power.counter_click_power_10 = 0;
-global.stats.counter_click_power.counter_click_power_100 = 0;
-global.stats.counter_click_power.counter_click_power_1000 = 0;
-global.stats.counter_click_power.counter_click_power_250 = 0;
-global.stats.counter_click_power.counter_click_power_50 =  0;
-global.stats.counter_click_power.counter_click_power_500 = 0;
-//
+
 global.stats.counter_manager.counter_manager_power_1 = 0;
 global.stats.counter_manager.counter_manager_power_10 = 0;
 global.stats.counter_manager.counter_manager_power_100 = 0;

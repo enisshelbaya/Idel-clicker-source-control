@@ -12,7 +12,7 @@ if (global.stats.random_vars.Clicker_Power > 0)   // makers sure that this code 
 		number_abbreviated = Number_Abbreviate(number_array)
 }
 
-if (global.stats.random_vars.taps > 1000 ) 
+if (global.stats.random_vars.Clicker_Power > 1000 ) 
 {
 draw_set_font(click_effect);
 draw_text_colour(x, y,"+" + number_abbreviated , c_white, c_white, c_white, c_white, alpha);

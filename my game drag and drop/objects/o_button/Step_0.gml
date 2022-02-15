@@ -18,6 +18,7 @@ global.stats.random_vars.Currency_amount += global.stats.random_vars.Clicker_Pow
 amount_gained += global.stats.random_vars.Clicker_Power;
 global.stats.random_vars.taps += 1;
 tps += 1;
+bar_taps += 1;
 instance_create_layer(mouse_x, mouse_y, "Effect", o_click_count_effect);
 
 
@@ -36,3 +37,7 @@ if (global.stats.random_vars.Clicker_Power > 0)   // makers sure that this code 
 		}
 		number_abbreviated = Number_Abbreviate(number_array)
 }
+
+/// multipler for taps per second 
+// tps
+

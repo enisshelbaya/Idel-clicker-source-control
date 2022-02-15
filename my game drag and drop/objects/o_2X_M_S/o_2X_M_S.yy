@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "manager_strength_2X",
-    "path": "sprites/manager_strength_2X/manager_strength_2X.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
