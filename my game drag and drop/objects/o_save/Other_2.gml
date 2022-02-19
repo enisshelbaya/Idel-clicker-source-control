@@ -26,36 +26,38 @@ if (run = true)
 /// to the proper number and turn of therir countdown sequence 
 
 // 2x click power multiplyer 
-if (global.stats.multiplyers.twox_click_power_count = 1)
+if (global.stats.multiplyers.two_x = 1)
 {
-global.stats.multiplyers.twox_click_power_count = 0;
-global.stats.random_vars.Clicker_Power = global.stats.random_vars.Clicker_Power / 2;
-
+global.stats.multiplyers.two_x = 0
+global.stats.random_vars.Clicker_Power = global.stats.random_vars.Clicker_Power / 2
 }
 
-// 2x manager strength 
+// 3x click power
 
-if (global.stats.multiplyers.twox_manager_strength_count = 1)
-{
-global.stats.multiplyers.twox_manager_strength_count = 0;
-global.stats.random_vars.manager_strength = global.stats.random_vars.manager_strength / 2;
+	if (global.stats.multiplyers.three_x = 1)
+		{
+		global.stats.multiplyers.three_x = 0
+		global.stats.random_vars.Clicker_Power = global.stats.random_vars.Clicker_Power / 3
+		}
 
-}
+// 4x click power 
+	if (global.stats.multiplyers.four_x = 1)
+		{
+		global.stats.multiplyers.four_x = 0
+		global.stats.random_vars.Clicker_Power = global.stats.random_vars.Clicker_Power / 4;
+		}
 
-// 5x click power multiplyer 
-if (global.stats.multiplyers.fivex_click_power_count = 1)
-{
-global.stats.multiplyers.fivex_click_power_count = 0;
-global.stats.random_vars.Clicker_Power = global.stats.random_vars.Clicker_Power / 5;
+// 5x click power
 
-}
-
-// 5x manager strength 
-
-if (global.stats.multiplyers.fivex_manager_strength_count = 1)
-{
-global.stats.multiplyers.fivex_manager_strength_count = 0;
-global.stats.random_vars.manager_strength = global.stats.random_vars.manager_strength / 5;
-
-}
+	if (global.stats.multiplyers.five_x = 1)
+		{
+		global.stats.multiplyers.five_x = 0
+		global.stats.random_vars.Clicker_Power = global.stats.random_vars.Clicker_Power / 5
+		}
+// 10x click power
+	if (global.stats.multiplyers.ten_x = 1)
+		{
+		global.stats.multiplyers.ten_x = 0;
+		global.stats.random_vars.Clicker_Power = global.stats.random_vars.Clicker_Power / 10
+		}
 }

@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 1922,
+  "bbox_right": 199,
   "bbox_top": 0,
-  "bbox_bottom": 1906,
+  "bbox_bottom": 197,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1923,
-  "height": 1907,
+  "width": 200,
+  "height": 198,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"dc16604f-bc9c-4172-9e0d-3acc4241f774","path":"sprites/s_circule_copy/s_circule_copy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dc16604f-bc9c-4172-9e0d-3acc4241f774","path":"sprites/s_circule_copy/s_circule_copy.yy",},"LayerId":{"name":"8cee25f0-701d-4f99-8461-4e6b676065c3","path":"sprites/s_circule_copy/s_circule_copy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_circule_copy","path":"sprites/s_circule_copy/s_circule_copy.yy",},"resourceVersion":"1.0","name":"dc16604f-bc9c-4172-9e0d-3acc4241f774","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"dc16604f-bc9c-4172-9e0d-3acc4241f774","path":"sprites/s_golden_boys/s_golden_boys.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"dc16604f-bc9c-4172-9e0d-3acc4241f774","path":"sprites/s_golden_boys/s_golden_boys.yy",},"LayerId":{"name":"8cee25f0-701d-4f99-8461-4e6b676065c3","path":"sprites/s_golden_boys/s_golden_boys.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_golden_boys","path":"sprites/s_golden_boys/s_golden_boys.yy",},"resourceVersion":"1.0","name":"dc16604f-bc9c-4172-9e0d-3acc4241f774","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_circule_copy","path":"sprites/s_circule_copy/s_circule_copy.yy",},
+    "spriteId": {"name":"s_golden_boys","path":"sprites/s_golden_boys/s_golden_boys.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1a469cae-1c58-497c-b5a2-63bb93d32e0f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dc16604f-bc9c-4172-9e0d-3acc4241f774","path":"sprites/s_circule_copy/s_circule_copy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1a469cae-1c58-497c-b5a2-63bb93d32e0f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dc16604f-bc9c-4172-9e0d-3acc4241f774","path":"sprites/s_golden_boys/s_golden_boys.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_circule_copy","path":"sprites/s_circule_copy/s_circule_copy.yy",},
+    "parent": {"name":"s_golden_boys","path":"sprites/s_golden_boys/s_golden_boys.yy",},
     "resourceVersion": "1.3",
-    "name": "s_circule_copy",
+    "name": "s_golden_boys",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_circule_copy",
+  "name": "s_golden_boys",
   "tags": [],
   "resourceType": "GMSprite",
 }

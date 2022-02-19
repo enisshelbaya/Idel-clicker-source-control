@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (global.stats.random_vars.Clicker_Power > 1000)   // makers sure that this code will not run when the variable is equal to 0
+if (o_manager_hud.Golden_amount > 1000)   // makers sure that this code will not run when the variable is equal to 0
 {
-		num_process = global.stats.random_vars.Clicker_Power;
+		num_process = o_manager_hud.Golden_amount ;
 		number_array=[]
 		while (num_process >= 1)
 		{
@@ -12,12 +12,12 @@ if (global.stats.random_vars.Clicker_Power > 1000)   // makers sure that this co
 		number_abbreviated = Number_Abbreviate(number_array)
 }
 
-if (global.stats.random_vars.Clicker_Power > 1000 ) 
+if (o_manager_hud.Golden_amount  > 1000 ) 
 {
 draw_set_font(click_effect);
 draw_text_colour(x, y,"+" + number_abbreviated , c_white, c_white, c_white, c_white, alpha);
 }
 else {
 draw_set_font(click_effect);
-draw_text_colour(x, y,"+" + string(global.stats.random_vars.Clicker_Power) , c_white, c_white, c_white, c_white, alpha);
+draw_text_colour(x, y,"+" + string(o_manager_hud.Golden_amount ) , c_white, c_white, c_white, c_white, alpha);
 }

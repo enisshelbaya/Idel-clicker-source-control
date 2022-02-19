@@ -1,7 +1,8 @@
 global.stats = {
-	click_power:{
-	click_power_level:0,
-	click_power_cost:12500
+	 
+	click_power: {
+		click_power_level:0,
+		click_power_cost:12500
 	},
 
   cost_manager: {
@@ -36,17 +37,11 @@ global.stats = {
   },
   
     multiplyers:{
-	  twox_click_power_count :0,
-	  twox_click_power_exist :0,
-	  //
-	  twox_manager_strength_count :0,
-	  twox_manager_strength_exist :0,
-	  //
-	  fivex_click_power_count :0,
-	  fivex_click_power_exist :0,
-	  //
-	  fivex_manager_strength_count :0,
-	  fivex_manager_strength_exist :0
+	 ten_x:0,
+	 five_x:0,
+	 four_x:0,
+	 three_x:0,
+	 two_x:0
 
   },
 }
