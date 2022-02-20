@@ -8,3 +8,9 @@ if (second = 0)
 {
 run_alarm_0 = true
 }
+if (percentage_1 = 100)
+{
+run_alarm_4 = true
+alarm[4] = room_speed*0.5
+global.bar_taps = 0
+}

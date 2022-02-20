@@ -60,4 +60,6 @@ global.stats.random_vars.Clicker_Power = global.stats.random_vars.Clicker_Power 
 		global.stats.multiplyers.ten_x = 0;
 		global.stats.random_vars.Clicker_Power = global.stats.random_vars.Clicker_Power / 10
 		}
+		
+		global.bar_taps = 0;
 }
