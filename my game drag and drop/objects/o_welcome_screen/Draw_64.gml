@@ -2,7 +2,7 @@
 // You can write your code in this editor
 /// @description Insert description here
 // You can write your code in this editor
-if (global.run = true)
+if (global.run = true && o_save.run = true)
 {
 	if (o_save.Currency_increase > 100000000)   // makers sure that this code will not run when the variable is equal to 0
 		{
@@ -23,7 +23,7 @@ if (global.run = true)
 	draw_set_valign(fa_middle)
 	draw_set_font(title_screen)
 	
-		if(o_save.time_diffrence < 60)
+	if(o_save.time_diffrence < 60)
 		{
 		draw_text(view_wport[0]*0.5,view_hport[0]*0.45, "you were gone for\n "  + string(o_save.time_diffrence) + " Seconds" )
 			if (o_save.Currency_increase > 100000000) {draw_text(view_wport[0]*0.5,view_hport[0]*0.55,  "and earned: " + string(number_abbreviated))}

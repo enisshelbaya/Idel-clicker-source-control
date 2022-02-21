@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (room = r_main)
+{
 instance_create_depth(irandom(x),irandom(y),depth,o_snowflake)
 image_xscale = 0.54
 image_yscale = 0.54
@@ -9,3 +11,4 @@ global.stats.random_vars.taps += 1;
 tps += 1;
 global.bar_taps += 1;
 instance_create_layer(mouse_x, mouse_y, "Effect", o_click_count_effect);
+}
