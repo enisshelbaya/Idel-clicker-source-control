@@ -19,6 +19,7 @@ if (run = true)
 // calculates the time diffrence between last saved time and the current time
 		time_diffrence = Current_time - global.stats.random_vars.time;
 // calculates the increase in currency amount 
+		Currency_increase = time_diffrence * global.stats.random_vars.manager_strength
 		global.stats.random_vars.Currency_amount += time_diffrence * global.stats.random_vars.manager_strength;
 	   show_debug_message(time_diffrence)
 	   
