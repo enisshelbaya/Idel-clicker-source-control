@@ -31,6 +31,7 @@
     {"id":{"name":"o_manager_hud","path":"objects/o_manager_hud/o_manager_hud.yy",},"order":4,},
     {"id":{"name":"o_manager_power_10","path":"objects/o_manager_power_10/o_manager_power_10.yy",},"order":1,},
     {"id":{"name":"o_golden_boys","path":"objects/o_golden_boys/o_golden_boys.yy",},"order":19,},
+    {"id":{"name":"snow_flake_shower","path":"objects/snow_flake_shower/snow_flake_shower.yy",},"order":24,},
     {"id":{"name":"transparent_header","path":"objects/transparent_header/transparent_header.yy",},"order":18,},
     {"id":{"name":"o_counter_m_50","path":"objects/o_counter_m_50/o_counter_m_50.yy",},"order":0,},
     {"id":{"name":"s_level_up","path":"sprites/s_level_up/s_level_up.yy",},"order":7,},

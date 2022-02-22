@@ -22,3 +22,4 @@ draw_circle(view_wport[0]*0.97,view_hport[0]*0.173,18,false)
 draw_set_font(timer)
 draw_text_color(view_wport[0]*0.03,view_hport[0]*0.833,second,c_white,c_white,c_white,c_white,1)
 }
+

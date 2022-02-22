@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+percentage_3 = 0
 percentage_1 = 0
 percentage_2 = 0
 run_alarm_0 = true

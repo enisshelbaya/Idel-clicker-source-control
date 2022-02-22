@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if (room = r_main)
 {
-instance_create_depth(irandom(x),irandom(y),depth,o_snowflake)
+instance_create_depth(irandom(view_wport[0]),irandom(view_hport[0]*0.2),depth,o_snowflake)
 image_xscale = 0.54
 image_yscale = 0.54
 alarm[0] = room_speed/15
