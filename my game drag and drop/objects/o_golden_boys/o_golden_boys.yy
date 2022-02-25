@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_golden_boys",
-    "path": "sprites/s_golden_boys/s_golden_boys.yy",
+    "name": "s_golden_cookie",
+    "path": "sprites/s_golden_cookie/s_golden_cookie.yy",
   },
   "solid": false,
   "visible": true,

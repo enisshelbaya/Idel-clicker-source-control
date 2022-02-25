@@ -4,9 +4,9 @@
 // You can write your code in this editor
 if (global.run = true && o_save.run = true)
 {
-	if (o_save.Currency_increase > 100000000)   // makers sure that this code will not run when the variable is equal to 0
-		{
-				num_process = global.stats.random_vars.Clicker_Power;
+	if (o_save.Currency_increase > 100000000)   // makers sure
+	{
+				num_process = o_save.Currency_increase;
 				number_array=[]
 				while (num_process >= 1)
 				{
@@ -24,28 +24,29 @@ if (global.run = true && o_save.run = true)
 	draw_set_font(title_screen)
 	
 	if(o_save.time_diffrence < 60)
+
 		{
-		draw_text(view_wport[0]*0.5,view_hport[0]*0.45, "you were gone for\n "  + string(o_save.time_diffrence) + " Seconds" )
-			if (o_save.Currency_increase > 100000000) {draw_text(view_wport[0]*0.5,view_hport[0]*0.55,  "and earned: " + string(number_abbreviated))}
-			else {draw_text(view_wport[0]*0.5,view_hport[0]*0.55,  "and earned: " + string(round (o_save.Currency_increase)))}
+		draw_text(view_wport[0]*0.5,x_1, "you were gone for\n "  + string(o_save.time_diffrence) + " Seconds" )
+			if (o_save.Currency_increase > 100000000) {draw_text(view_wport[0]*0.5,x_2,  "and earned: " + string(number_abbreviated))}
+			else {draw_text(view_wport[0]*0.5,x_2,  "and earned: " + string(round (o_save.Currency_increase)))}
 		}
 	if( o_save.time_diffrence/60 > 1 && o_save.time_diffrence/60 < 61)
 		{
-		draw_text(view_wport[0]*0.5,view_hport[0]*0.45, "you were gone for\n " + string(floor(o_save.time_diffrence/60)) + " minutes " + string(round(o_save.time_diffrence-(floor(o_save.time_diffrence/60)*60)))+ " seconds")
-		if (o_save.Currency_increase > 100000000) {draw_text(view_wport[0]*0.5,view_hport[0]*0.55,  "and earned: " + string(number_abbreviated))}
-		else {draw_text(view_wport[0]*0.5,view_hport[0]*0.55,  "and earned: " + string(round (o_save.Currency_increase)))}
+		draw_text(view_wport[0]*0.5,x_1, "you were gone for\n " + string(floor(o_save.time_diffrence/60)) + " minutes " + string(round(o_save.time_diffrence-(floor(o_save.time_diffrence/60)*60)))+ " seconds")
+		if (o_save.Currency_increase > 100000000) {draw_text(view_wport[0]*0.5,x_2,  "and earned: " + string(number_abbreviated))}
+		else {draw_text(view_wport[0]*0.5,x_2,  "and earned: " + string(round (o_save.Currency_increase)))}
 		}
 	if( o_save.time_diffrence/3600 > 1 && o_save.time_diffrence/3600 <= 12)
 		{
-		draw_text(view_wport[0]*0.5,view_hport[0]*0.45, "you were gone for\n " +  string(floor(o_save.time_diffrence/3600)) + " Hours " + string(round((o_save.time_diffrence-(floor(o_save.time_diffrence/3600)*3600))/60)) + " minutes " + string(round(o_save.time_diffrence-(floor(o_save.time_diffrence/60)*60)))+ " seconds")
-		if (o_save.Currency_increase > 100000000) {draw_text(view_wport[0]*0.5,view_hport[0]*0.55,  "and earned: " + string(number_abbreviated))}
-		else {draw_text(view_wport[0]*0.5,view_hport[0]*0.55,  "and earned: " + string(round (o_save.Currency_increase)))}
+		draw_text(view_wport[0]*0.5,x_1, "you were gone for\n " +  string(floor(o_save.time_diffrence/3600)) + " Hours " + string(round((o_save.time_diffrence-(floor(o_save.time_diffrence/3600)*3600))/60)) + " minutes " + string(round(o_save.time_diffrence-(floor(o_save.time_diffrence/60)*60)))+ " seconds")
+		if (o_save.Currency_increase > 100000000) {draw_text(view_wport[0]*0.5,x_2,  "and earned: " + string(number_abbreviated))}
+		else {draw_text(view_wport[0]*0.5,x_2,  "and earned: " + string(round (o_save.Currency_increase)))}
 		}
 	if( o_save.time_diffrence/86400 > 1 )
 		{
-		draw_text(view_wport[0]*0.5,view_hport[0]*0.45, "you were gone for\n " +  string(floor(o_save.time_diffrence/86400)) + " Days " + string(round((o_save.time_diffrence-(floor(o_save.time_diffrence/86400)*86400))/3600)) + " hours " + string(round((o_save.time_diffrence-(floor(o_save.time_diffrence/3600)*3600))/60)) + " minutes " + string(round(o_save.time_diffrence-(floor(o_save.time_diffrence/60)*60)))+ " seconds")
-		if (o_save.Currency_increase > 100000000) {draw_text(view_wport[0]*0.5,view_hport[0]*0.55,  "and earned: " + string(number_abbreviated))}
-		else {draw_text(view_wport[0]*0.5,view_hport[0]*0.55,  "and earned: " + string(round (o_save.Currency_increase)))}
+		draw_text(view_wport[0]*0.5,x_1, "you were gone for\n " +  string(floor(o_save.time_diffrence/86400)) + " Days " + string(round((o_save.time_diffrence-(floor(o_save.time_diffrence/86400)*86400))/3600)) + " hours " + string(round((o_save.time_diffrence-(floor(o_save.time_diffrence/3600)*3600))/60)) + " minutes " + string(round(o_save.time_diffrence-(floor(o_save.time_diffrence/60)*60)))+ " seconds")
+		if (o_save.Currency_increase > 100000000) {draw_text(view_wport[0]*0.5,x_2,  "and earned: " + string(number_abbreviated))}
+		else {draw_text(view_wport[0]*0.5,x_2,  "and earned: " + string(round (o_save.Currency_increase)))}
 		}
 	
 

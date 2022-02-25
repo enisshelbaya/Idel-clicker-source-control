@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_close","path":"sprites/s_close/s_close.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_close",
     "tags": [],
     "resourceType": "GMSequence",

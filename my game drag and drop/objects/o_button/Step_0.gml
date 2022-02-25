@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-
+image_angle += 1
 // abbreviates click power
 if (global.stats.random_vars.Clicker_Power > 1000)   // makers sure that this code will not run when the variable is equal to 0
 {

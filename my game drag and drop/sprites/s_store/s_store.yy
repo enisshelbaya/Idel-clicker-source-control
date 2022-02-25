@@ -138,7 +138,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_store","path":"sprites/s_store/s_store.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_store",
     "tags": [],
     "resourceType": "GMSequence",

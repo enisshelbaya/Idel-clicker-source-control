@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_golden_boys","path":"sprites/s_golden_boys/s_golden_boys.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_golden_boys",
     "tags": [],
     "resourceType": "GMSequence",

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_button",
-    "path": "sprites/s_button/s_button.yy",
+    "name": "s_frying_pan",
+    "path": "sprites/s_frying_pan/s_frying_pan.yy",
   },
   "solid": false,
   "visible": true,

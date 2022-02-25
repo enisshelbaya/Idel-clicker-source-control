@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_camera_movement","path":"sprites/s_camera_movement/s_camera_movement.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_camera_movement",
     "tags": [],
     "resourceType": "GMSequence",

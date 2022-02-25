@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_circule_copy9","path":"sprites/s_circule_copy9/s_circule_copy9.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_circule_copy",
     "tags": [],
     "resourceType": "GMSequence",
