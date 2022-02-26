@@ -7,3 +7,4 @@
 		global.stats.counter_manager.pots += 1
 		global.stats.cost_manager.pots = 1400000*power(1.175,global.stats.counter_manager.pots)
 		}
+		else {audio_play_sound(error,1,false)}

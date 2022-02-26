@@ -8,3 +8,4 @@ second = 190;
 alarm[0] = room_speed*1
 run_alarm_4 = false
 golden_shower = 0
+

@@ -15,13 +15,16 @@ if (global.run = true && o_save.run = true)
 				}
 				number_abbreviated = Number_Abbreviate(number_array)
 		}
-	draw_set_alpha(0.5)
-	draw_roundrect_color_ext(view_wport[0]*0.05,view_hport[0]*0.4,view_wport[0]*0.95,view_hport[0]*0.6,50,50,c_black,c_black,0)
+	draw_set_alpha(0.8)
+	draw_roundrect_color_ext(view_wport[0]*0.05,view_hport[0]*0.39,view_wport[0]*0.95,view_hport[0]*0.62,50,50,c_black,c_black,0)
 	draw_set_alpha(1)
 	draw_sprite(s_close,0,x,y)
 	draw_set_halign(fa_middle)
 	draw_set_valign(fa_middle)
+	draw_set_font(Welcome)
+	draw_text(view_wport[0]*0.5,view_hport[0]*0.45, "Welcome Back!")
 	draw_set_font(title_screen)
+	
 	
 	if(o_save.time_diffrence < 60)
 

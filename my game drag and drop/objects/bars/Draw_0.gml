@@ -3,7 +3,7 @@
 
 // bar for golden shower
 
-percentage_1 = (global.bar_taps /800)*100
+percentage_1 = (global.stats.random_vars.bar_taps /800)*100
 draw_set_halign(fa_middle)
 draw_set_valign(fa_middle)
 if (room = r_main)

@@ -1,5 +1,5 @@
 // abbreviates currency amount
-if (global.stats.random_vars.Currency_amount > 0) // makers sure that this code will not run when the variable is equal to 0
+if (global.stats.random_vars.Currency_amount > 100000000) // makers sure that this code will not run when the variable is equal to 0
 {
 		num_process = global.stats.random_vars.Currency_amount;
 		number_array=[]
@@ -10,7 +10,7 @@ if (global.stats.random_vars.Currency_amount > 0) // makers sure that this code 
 		number_abbreviated = Number_Abbreviate(number_array)
 }
 
-if (global.stats.random_vars.manager_strength > 0) // makers sure that this code will not run when the variable is equal to 0
+if (global.stats.random_vars.manager_strength > 100000000) // makers sure that this code will not run when the variable is equal to 0
 {
 		num_process = global.stats.random_vars.manager_strength;
 		number_array=[]

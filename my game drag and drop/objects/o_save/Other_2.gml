@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 // loading in variables from json file
-global.bar_taps = 0;
+
 run = true
 if (run = true)
 {

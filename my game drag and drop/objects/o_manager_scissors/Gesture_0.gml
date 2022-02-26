@@ -8,3 +8,4 @@
 		global.stats.counter_manager.scissors += 1
 		global.stats.cost_manager.scissors = 20000000*power(1.175,global.stats.counter_manager.scissors)
 		}
+		else {audio_play_sound(error,1,false)}

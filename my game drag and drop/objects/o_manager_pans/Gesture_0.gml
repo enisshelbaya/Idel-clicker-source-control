@@ -8,4 +8,5 @@
 		global.stats.counter_manager.pans += 1
 		global.stats.cost_manager.pans = 130000*power(1.175,global.stats.counter_manager.pans)
 		}
+		else {audio_play_sound(error,1,false)}
 

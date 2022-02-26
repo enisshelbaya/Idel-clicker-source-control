@@ -9,6 +9,7 @@
 		global.stats.cost_manager.coffee = 10*power(1.175,global.stats.counter_manager.coffee)
 		
 		}
+		else {audio_play_sound(error,1,false)}
 
 
 

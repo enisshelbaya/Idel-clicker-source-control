@@ -7,3 +7,4 @@
 		global.stats.counter_manager.spatula += 1
 		global.stats.cost_manager.spatula = 100*power(1.175,global.stats.counter_manager.spatula)
 		}
+		else {audio_play_sound(error,1,false)}

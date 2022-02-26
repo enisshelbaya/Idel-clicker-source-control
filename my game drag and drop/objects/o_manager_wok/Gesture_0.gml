@@ -8,3 +8,4 @@
 		global.stats.counter_manager.wok += 1
 		global.stats.cost_manager.wok = 12000*power(1.175,global.stats.counter_manager.wok)
 		}
+		else {audio_play_sound(error,1,false)}
