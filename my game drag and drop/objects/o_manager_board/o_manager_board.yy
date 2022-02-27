@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_click_power_10",
-    "path": "sprites/s_click_power_10/s_click_power_10.yy",
+    "name": "s_chopping_board",
+    "path": "sprites/s_chopping_board/s_chopping_board.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_click_power_10",
-    "path": "sprites/s_click_power_10/s_click_power_10.yy",
+    "name": "s_chef_knife",
+    "path": "sprites/s_chef_knife/s_chef_knife.yy",
   },
   "solid": false,
   "visible": true,

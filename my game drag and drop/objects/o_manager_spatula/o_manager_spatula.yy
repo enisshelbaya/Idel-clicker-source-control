@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_click_power_10",
-    "path": "sprites/s_click_power_10/s_click_power_10.yy",
+    "name": "s_saptula",
+    "path": "sprites/s_saptula/s_saptula.yy",
   },
   "solid": false,
   "visible": true,

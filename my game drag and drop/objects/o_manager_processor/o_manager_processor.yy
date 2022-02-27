@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_click_power_10",
-    "path": "sprites/s_click_power_10/s_click_power_10.yy",
+    "name": "s_food_processor",
+    "path": "sprites/s_food_processor/s_food_processor.yy",
   },
   "solid": false,
   "visible": true,

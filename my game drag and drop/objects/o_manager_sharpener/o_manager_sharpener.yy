@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_click_power_10",
-    "path": "sprites/s_click_power_10/s_click_power_10.yy",
+    "name": "s_knife_sharpener",
+    "path": "sprites/s_knife_sharpener/s_knife_sharpener.yy",
   },
   "solid": false,
   "visible": true,

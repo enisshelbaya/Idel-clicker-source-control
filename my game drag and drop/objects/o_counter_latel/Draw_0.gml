@@ -24,4 +24,4 @@ else
 }
 draw_set_valign(fa_top)
 draw_set_font(Font4)
-draw_text(room_width*0.30,o_manager_latel.y-60, "Latel")
+draw_text(room_width*0.30,o_manager_latel.y-60, "Ladel")
