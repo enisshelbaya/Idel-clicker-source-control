@@ -7,5 +7,6 @@
 		global.stats.random_vars.Currency_amount -= global.stats.cost_manager.wok;
 		global.stats.counter_manager.wok += 1
 		global.stats.cost_manager.wok = 12000*power(1.175,global.stats.counter_manager.wok)
+		global.stats.random_vars.total_upgrades += 1;
 		}
 		else {audio_play_sound(error,1,false)}

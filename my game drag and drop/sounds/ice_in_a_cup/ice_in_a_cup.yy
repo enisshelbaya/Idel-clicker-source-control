@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "ice_in_a_cup",
-  "duration": 0.0,
+  "soundFile": "ice_in_a_cup.mp3",
+  "duration": 1.9472,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

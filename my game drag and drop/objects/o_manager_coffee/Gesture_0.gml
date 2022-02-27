@@ -7,7 +7,7 @@
 		global.stats.random_vars.Currency_amount -= global.stats.cost_manager.coffee;
 		global.stats.counter_manager.coffee += 1
 		global.stats.cost_manager.coffee = 10*power(1.175,global.stats.counter_manager.coffee)
-		
+		global.stats.random_vars.total_upgrades += 1;
 		}
 		else {audio_play_sound(error,1,false)}
 

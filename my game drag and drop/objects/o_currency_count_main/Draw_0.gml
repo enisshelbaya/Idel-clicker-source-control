@@ -12,7 +12,7 @@ if (global.stats.random_vars.Currency_amount > 1000000000000 ) {
 draw_text_transformed(view_wport[0]*0.5,view_hport[0]*0.08,  number_abbreviated+ " Cookies" , 1, 1, 0);
 }
 else {
-	draw_text_transformed(view_wport[0]*0.5,view_hport[0]*0.08,  string(global.stats.random_vars.Currency_amount)+ " Cookies" , 1, 1, 0);
+	draw_text_transformed(view_wport[0]*0.5,view_hport[0]*0.08,  string(floor(global.stats.random_vars.Currency_amount))+ " Cookies" , 1, 1, 0);
 }
 
 // draws manager strength 

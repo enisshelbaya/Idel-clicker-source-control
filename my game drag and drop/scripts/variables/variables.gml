@@ -54,9 +54,15 @@ global.stats = {
       manager_strength : 0,
       Currency_amount : 0,
 	  time : 0,
-	  taps : 0,
-	  bar_taps : 0
-	  
+	  bar_taps : 0,
+	  Total_lifetime_cookies:0,
+	  tap_production:0,
+	  golden_boys_clicked:0,
+	  taps :0,
+	  total_upgrades:0,
+	  vol:0,
+	  volume_index:0,
+	  ads_watched:0
   },
   
     multiplyers:{

@@ -4,6 +4,7 @@
 // You can write your code in this editor
 if (global.run = true && o_save.run = true)
 {
+	
 	if (o_save.Currency_increase > 100000000)   // makers sure
 	{
 				num_process = o_save.Currency_increase;
@@ -19,7 +20,7 @@ if (global.run = true && o_save.run = true)
 	draw_roundrect_color_ext(view_wport[0]*0.05,view_hport[0]*0.39,view_wport[0]*0.95,view_hport[0]*0.62,50,50,c_black,c_black,0)
 	draw_set_alpha(1)
 	draw_sprite(s_close,0,x,y)
-	draw_set_halign(fa_middle)
+	draw_set_halign(fa_center)
 	draw_set_valign(fa_middle)
 	draw_set_font(Welcome)
 	draw_text(view_wport[0]*0.5,view_hport[0]*0.45, "Welcome Back!")
@@ -39,7 +40,7 @@ if (global.run = true && o_save.run = true)
 		if (o_save.Currency_increase > 100000000) {draw_text(view_wport[0]*0.5,x_2,  "and earned: " + string(number_abbreviated))}
 		else {draw_text(view_wport[0]*0.5,x_2,  "and earned: " + string(round (o_save.Currency_increase)))}
 		}
-	if( o_save.time_diffrence/3600 > 1 && o_save.time_diffrence/3600 <= 12)
+	if( o_save.time_diffrence/3600 > 1 && o_save.time_diffrence/3600 <= 24)
 		{
 		draw_text(view_wport[0]*0.5,x_1, "you were gone for\n " +  string(floor(o_save.time_diffrence/3600)) + " Hours " + string(round((o_save.time_diffrence-(floor(o_save.time_diffrence/3600)*3600))/60)) + " minutes " + string(round(o_save.time_diffrence-(floor(o_save.time_diffrence/60)*60)))+ " seconds")
 		if (o_save.Currency_increase > 100000000) {draw_text(view_wport[0]*0.5,x_2,  "and earned: " + string(number_abbreviated))}

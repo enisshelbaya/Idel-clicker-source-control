@@ -21,18 +21,18 @@ if (run = true)
 		time_diffrence = Current_time - global.stats.random_vars.time;
 // calculates the increase in currency amount 
 		Currency_increase = time_diffrence * global.stats.random_vars.manager_strength
-		global.stats.random_vars.Currency_amount += time_diffrence * global.stats.random_vars.manager_strength;
-	   show_debug_message(time_diffrence)
+		global.stats.random_vars.Currency_amount += Currency_increase;
+		global.stats.random_vars.Total_lifetime_cookies += Currency_increase;
 	   
 /// checks weather any multiplyers were on and makes sure to returen their values 
 /// to the proper number and turn of therir countdown sequence 
 
 // 2x click power multiplyer 
-if (global.stats.multiplyers.two_x = 1)
-{
-global.stats.multiplyers.two_x = 0
-global.stats.random_vars.Clicker_Power = global.stats.random_vars.Clicker_Power / 2
-}
+	if (global.stats.multiplyers.two_x = 1)
+		{
+		global.stats.multiplyers.two_x = 0
+		global.stats.random_vars.Clicker_Power = global.stats.random_vars.Clicker_Power / 2
+		}
 
 // 3x click power
 

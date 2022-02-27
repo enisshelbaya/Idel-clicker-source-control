@@ -7,5 +7,6 @@
 		global.stats.random_vars.Currency_amount -= global.stats.cost_manager.latel;
 		global.stats.counter_manager.latel += 1
 		global.stats.cost_manager.latel = 1100*power(1.175,global.stats.counter_manager.latel)
+		global.stats.random_vars.total_upgrades += 1;
 		}
 		else {audio_play_sound(error,1,false)}

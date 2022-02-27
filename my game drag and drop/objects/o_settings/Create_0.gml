@@ -1,4 +1,5 @@
 /// @description 
+global.drawn_1 = 0
 image_xscale=0.195313;
 image_yscale=0.195313;
 x = view_wport[0]*0.5;

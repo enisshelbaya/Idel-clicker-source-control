@@ -4,7 +4,7 @@
 // bar for golden shower
 
 percentage_1 = (global.stats.random_vars.bar_taps /800)*100
-draw_set_halign(fa_middle)
+draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
 if (room = r_main)
 {
@@ -15,7 +15,7 @@ draw_circle(view_wport[0]*0.97,view_hport[0]*0.173,18,false)
 if (room = r_main)
 {
 percentage_2 = (second/200)*100
-draw_set_halign(fa_middle)
+draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
 draw_healthbar(view_wport[0]*0.06,view_hport[0]*0.83,view_wport[0]*0.94,view_hport[0]*0.836, percentage_2, c_grey, c_yellow, c_yellow, 0, true, false)
 draw_circle(view_wport[0]*0.97,view_hport[0]*0.173,18,false)

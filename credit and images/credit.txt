@@ -1,4 +1,8 @@
-settings icon "https://www.flaticon.com/free-icons/settings" Settings icons created by Ilham Fitrotul Hayat 
-store icon "https://www.flaticon.com/free-icons/shop" Shop icons created by Gregor Cresnar 
-level up icon "https://www.flaticon.com/free-icons/level-up" Level up icons created by Freepik 
-background <a href='https://www.freepik.com/vectors/cooked-food'>Cooked food vector created by catalyststuff - www.freepik.com</a>
+settings icon https://www.flaticon.com/free-icons/settings Settings icons created by Ilham Fitrotul Hayat 
+store icon https://www.flaticon.com/free-icons/shop Shop icons created by Gregor Cresnar 
+level up icon https://www.flaticon.com/free-icons/level-upLevel up icons created by Freepik 
+background https://www.freepik.com/vectors/cooked-food Cooked food vector created by catalyststuff - www.freepik.com
+more Icon https://www.flaticon.com/free-icons/more More icons created by Anggara - Flaticon
+Stats icon https://www.flaticon.com/free-icons/stats Stats icons created by Ilham Fitrotul Hayat - Flaticon
+mute Icon https://www.flaticon.com/free-icons/mute Mute icons created by Freepik - Flaticon
+volume icon https://www.flaticon.com/free-icons/speakerSpeaker icons created by Freepik - Flaticon

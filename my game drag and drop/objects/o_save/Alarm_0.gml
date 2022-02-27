@@ -5,7 +5,7 @@ var _buffer = buffer_create(string_byte_length(_string) +1, buffer_fixed, +1)
 buffer_write(_buffer, buffer_string, _string)
 buffer_save (_buffer, "savedgame.save");
 buffer_delete(_buffer);
-show_debug_message("game saved" + _string)
+
 
 // record the time since 
 unix_start_point = date_create_datetime(1970,1,1,0,0,0)
