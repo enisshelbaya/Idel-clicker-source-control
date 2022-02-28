@@ -16,6 +16,7 @@ draw_roundrect_ext(view_wport[0]*0.23,y_1+spacing,view_wport[0]*0.77,y_2+spacing
 draw_roundrect_ext(view_wport[0]*0.23,y_1+spacing*2,view_wport[0]*0.77,y_2+spacing*2,rad2,rad2,0)
 draw_roundrect_ext(view_wport[0]*0.23,y_1+spacing*3,view_wport[0]*0.77,y_2+spacing*3,rad2,rad2,0)
 draw_roundrect_ext(view_wport[0]*0.23,y_1+spacing*4,view_wport[0]*0.77,y_2+spacing*4,rad2,rad2,0)
+draw_roundrect_ext(view_wport[0]*0.23,y_1+spacing*5,view_wport[0]*0.77,y_2+spacing*5,rad2,rad2,0)
 /// draws the individual stats
 draw_set_halign(fa_left)
 draw_set_color(c_white)
@@ -27,6 +28,7 @@ if (global.stats.random_vars.tap_production > 10000000000000){draw_text(x_1,y_3,
 draw_text(x_1,y_3+spacing*2,"Taps:" + string(global.stats.random_vars.taps))
 draw_text(x_1,y_3+spacing*3,"Coffees Consumed:" + string(global.stats.random_vars.golden_boys_clicked))
 draw_text(x_1,y_3+spacing*4,"Total Upgrades:" + string(global.stats.random_vars.total_upgrades))
+draw_text(x_1,y_3+spacing*5,"Ads Watched:" + string(global.stats.random_vars.ads_watched))
 /// draws the title
 draw_set_halign(fa_center)
 draw_set_color(c_blue)
