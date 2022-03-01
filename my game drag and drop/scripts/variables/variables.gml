@@ -65,6 +65,7 @@ global.stats = {
 	  ads_watched:0
   },
   
+  
     multiplyers:{
 	 ten_x:0,
 	 five_x:0,

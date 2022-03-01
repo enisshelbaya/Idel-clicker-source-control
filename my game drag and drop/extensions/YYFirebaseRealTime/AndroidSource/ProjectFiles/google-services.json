@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "678715066674",
+    "project_id": "idle-1b486",
+    "storage_bucket": "idle-1b486.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678715066674:android:fea74fd4aaa46e0a81ef2b",
+        "android_client_info": {
+          "package_name": "com.company.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678715066674-8gus43thbbtskf9j83du7b3sthbsckkd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.company.game",
+            "certificate_hash": "aaa7fd7cda825153a7c130fc5a2a8212a3a0ebb2"
+          }
+        },
+        {
+          "client_id": "678715066674-6cenu75pdspdafpet5rluvcpv5jg39i2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALFwmA0WavpEYzsT4533UUhvdi8Wb2E1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678715066674-6cenu75pdspdafpet5rluvcpv5jg39i2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
