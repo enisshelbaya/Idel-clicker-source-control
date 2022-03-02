@@ -15,9 +15,9 @@ if (global.stats.random_vars.Clicker_Power > 1000)   // makers sure that this co
 if (global.stats.random_vars.Clicker_Power > 1000 ) 
 {
 draw_set_font(click_effect);
-draw_text_colour(x, y,"+" + number_abbreviated , c_white, c_white, c_white, c_white, alpha);
+draw_text_transformed_colour(x, y,"+" + number_abbreviated,1*(view_wport[0]/768),1*(view_wport[0]/768),0, c_white, c_white, c_white, c_white, alpha);
 }
 else {
 draw_set_font(click_effect);
-draw_text_colour(x, y,"+" + string(global.stats.random_vars.Clicker_Power) , c_white, c_white, c_white, c_white, alpha);
+draw_text_transformed_colour(x, y,"+" + string(global.stats.random_vars.Clicker_Power),1*(view_wport[0]/768),1*(view_wport[0]/768),0, c_white, c_white, c_white, c_white, alpha);
 }

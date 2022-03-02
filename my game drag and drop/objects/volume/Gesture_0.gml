@@ -13,6 +13,6 @@ else
 		global.stats.random_vars.volume_index = 0
 	
 	}
-image_xscale=0.1;
-image_yscale=0.1;
+image_xscale=0.12*(view_wport[0]/768);
+image_yscale=0.12*(view_wport[0]/768);
 alarm[0]=room_speed/15

@@ -11,6 +11,6 @@ else
 instance_destroy(_id)
 }
 audio_play_sound(button_click,50,false)
-image_xscale=0.25;
-image_yscale=0.25;
+image_xscale=view_wport[0]/3072;
+image_yscale=view_wport[0]/3072;
 alarm[0]=room_speed/15

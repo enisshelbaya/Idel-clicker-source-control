@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (global.game_has_never_ran = false)
+{
+/// @description Insert description here
+// You can write your code in this editor
 
 
 /// draws the big box	
@@ -35,3 +39,6 @@ draw_set_color(c_blue)
 draw_set_font(stat_title)
 draw_text_transformed(view_wport[0]*0.5,view_hport[0]*0.26,"Statistics",1*(view_wport[0]/768),1*(view_wport[0]/768),0)
 
+
+
+}

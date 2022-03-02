@@ -15,9 +15,9 @@ if (o_manager_hud.Golden_amount > 1000)   // makers sure that this code will not
 if (o_manager_hud.Golden_amount  > 1000 ) 
 {
 draw_set_font(click_effect);
-draw_text_colour(x, y,"+" + number_abbreviated , c_white, c_white, c_white, c_white, alpha);
+draw_text_transformed_colour(x, y,"+" + number_abbreviated,1*(view_wport[0]/768),1*(view_wport[0]/768),0, c_white, c_white, c_white, c_white, alpha);
 }
 else {
 draw_set_font(click_effect);
-draw_text_colour(x, y,"+" + string(o_manager_hud.Golden_amount ) , c_white, c_white, c_white, c_white, alpha);
+draw_text_transformed_colour(x, y,"+" + string(o_manager_hud.Golden_amount ) ,1*(view_wport[0]/768),1*(view_wport[0]/768),0, c_white, c_white, c_white, c_white, alpha);
 }
