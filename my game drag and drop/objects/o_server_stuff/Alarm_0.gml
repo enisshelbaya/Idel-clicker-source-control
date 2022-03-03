@@ -1,7 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (global.game_has_never_ran=false)
-{
 var data = 
 {
 	name:0,
@@ -21,5 +19,5 @@ var data =
 };
 var jsondata = json_stringify(data)
 FirebaseRealTime().Path("v").Set(jsondata)
-}
+
 alarm[0]=room_speed*1
