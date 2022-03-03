@@ -10,4 +10,4 @@ if( flickVelY != 0 ){
   flickVelY = 0;
  }
 }
-y = clamp(y,0,5464)
+y = clamp(y,0,room_height)
