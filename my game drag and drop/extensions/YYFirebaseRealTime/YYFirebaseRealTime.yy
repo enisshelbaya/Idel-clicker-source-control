@@ -61,7 +61,7 @@
   "tvosThirdPartyFrameworkEntries": [],
   "IncludedResources": [],
   "androidPermissions": [],
-  "copyToTargets": 35184372088940,
+  "copyToTargets": 44,
   "iosCocoaPods": "\r\npod 'Firebase/Database','8.4.0'\r\n",
   "tvosCocoaPods": "",
   "iosCocoaPodDependencies": "",

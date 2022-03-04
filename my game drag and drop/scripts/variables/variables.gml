@@ -70,7 +70,8 @@ global.stats = {
 	  age:0,
 	  location:0,
 	  phone_number:0,
-	  email_adress:0
+	  email_adress:0,
+	  player_id:0
   },
   
   

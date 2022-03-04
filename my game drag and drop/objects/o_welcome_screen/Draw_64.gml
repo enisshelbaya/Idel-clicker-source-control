@@ -2,7 +2,7 @@
 // You can write your code in this editor
 /// @description Insert description here
 // You can write your code in this editor
-if (global.game_has_never_ran = false && o_save.run = true)
+if (global.game_has_never_ran = false && global.run = true)
 {
 	
 	if (o_save.Currency_increase > 100000000)   // makers sure

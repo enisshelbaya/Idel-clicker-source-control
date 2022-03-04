@@ -5,7 +5,7 @@
 
 #macro FirebaseRealTime_Library_useSDK ((FirebaseRealTime_Library == FirebaseRealTime_Library_SDKs_When_Available and (os_type == os_android or os_type == os_ios or os_browser != browser_not_a_browser)) or FirebaseRealTime_Library == FirebaseRealTime_Library_Only_SDKs)
 
-function FirebaseRealTime(database = "https://idle-1b486-default-rtdb.firebaseio.com/")
+function FirebaseRealTime(database = undefined)
 {
 	return new Firebase_RealTime_builder(database)
 }
