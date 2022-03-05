@@ -3,8 +3,8 @@
 if (room = r_main)
 {
 instance_create_depth(irandom(view_wport[0]),irandom(view_hport[0]*0.2),depth,o_snowflake)
-image_xscale = 0.54*(view_wport[0]/768)
-image_yscale = 0.54*(view_wport[0]/768)
+image_xscale = 0.64*(view_wport[0]/768)
+image_yscale = 0.64*(view_wport[0]/768)
 alarm[0] = room_speed/15
 global.stats.random_vars.Currency_amount += global.stats.random_vars.Clicker_Power;
 global.stats.random_vars.tap_production += global.stats.random_vars.Clicker_Power;
