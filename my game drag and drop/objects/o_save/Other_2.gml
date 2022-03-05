@@ -4,12 +4,12 @@
 //make's sure that the seed changes for every game 
 
 /// loading saved files
-run = true
-if (run = true)
-{
+
+	
+
 		if (file_exists("savedgame.save"))
 		{
-		
+			global.game_has_never_ran = false
 			var _buffer = buffer_load("savedgame.save");
 			var _string = buffer_read(_buffer, buffer_string);
 			buffer_delete(_buffer);
@@ -66,10 +66,13 @@ if (run = true)
 		global.stats.random_vars.Clicker_Power = global.stats.random_vars.Clicker_Power / 10
 		}
 		}
-}
+	else
+		{
+			global.game_has_never_ran = true
+		}
 show_debug_message(global.stats.random_vars.player_id)
 if (global.stats.random_vars.player_id = 0)
 {
 	randomize()
-	global.stats.random_vars.player_id = irandom(99999999999999999999999999999999999999)
+	global.stats.random_vars.player_id = irandom_range(0,99999999999999999999999999999999999999)
 }

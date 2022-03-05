@@ -1,7 +1,7 @@
 /// @description Insert description here
-// You can write your code in this editor
-global.game_has_never_ran = false
-if (global.game_has_never_ran = true)
+// You can write your code in this editor\
+run = false
+if (run = true ) 
 {
 /// @description Insert description here
 // You can write your code in this editor

@@ -17,18 +17,21 @@ draw_roundrect_ext(view_wport[0]*0.23,y_1+spacing*2,view_wport[0]*0.77,y_2+spaci
 draw_roundrect_ext(view_wport[0]*0.23,y_1+spacing*3,view_wport[0]*0.77,y_2+spacing*3,rad2,rad2,0)
 draw_roundrect_ext(view_wport[0]*0.23,y_1+spacing*4,view_wport[0]*0.77,y_2+spacing*4,rad2,rad2,0)
 draw_roundrect_ext(view_wport[0]*0.23,y_1+spacing*5,view_wport[0]*0.77,y_2+spacing*5,rad2,rad2,0)
+draw_roundrect_ext(view_wport[0]*0.23,y_1+spacing*6,view_wport[0]*0.77,y_2+spacing*6,rad2,rad2,0)
 /// draws the individual stats
 draw_set_halign(fa_left)
 draw_set_color(c_white)
 draw_set_font(stats)
-draw_text_transformed(x_1,y_3,"Total Production:" + string(round(global.stats.random_vars.Total_lifetime_cookies)),1*(view_wport[0]/768),1*(view_wport[0]/768),0)
-if (global.stats.random_vars.Total_lifetime_cookies > 10000000000000){draw_text_transformed(x_1,y_3,"Total Production:" + number_abbreviated ,1*(view_wport[0]/768),1*(view_wport[0]/768),0)}
-draw_text_transformed(x_1,y_3+spacing,"Tap Production:" + string(global.stats.random_vars.tap_production),1*(view_wport[0]/768),1*(view_wport[0]/768),0)
-if (global.stats.random_vars.tap_production > 10000000000000){draw_text_transformed(x_1,y_3,"Tap Production:" + number_abbreviated,1*(view_wport[0]/768),1*(view_wport[0]/768),0 )}
+if (global.stats.random_vars.Total_lifetime_cookies > 10000000000000)
+{draw_text_transformed(x_1,y_3,"Total Production:" + number_abbreviated ,1*(view_wport[0]/768),1*(view_wport[0]/768),0)}
+else{draw_text_transformed(x_1,y_3,"Total Production:" + string(round(global.stats.random_vars.Total_lifetime_cookies)),1*(view_wport[0]/768),1*(view_wport[0]/768),0)}
+if (global.stats.random_vars.tap_production > 10000000000000){draw_text_transformed(x_1,y_3+spacing,"Tap Production:" + number_abbreviated,1*(view_wport[0]/768),1*(view_wport[0]/768),0 )}
+else{draw_text_transformed(x_1,y_3+spacing,"Tap Production:" + string(global.stats.random_vars.tap_production),1*(view_wport[0]/768),1*(view_wport[0]/768),0)}
 draw_text_transformed(x_1,y_3+spacing*2,"Taps:" + string(global.stats.random_vars.taps),1*(view_wport[0]/768),1*(view_wport[0]/768),0)
 draw_text_transformed(x_1,y_3+spacing*3,"Coffees Consumed:" + string(global.stats.random_vars.golden_boys_clicked),1*(view_wport[0]/768),1*(view_wport[0]/768),0)
 draw_text_transformed(x_1,y_3+spacing*4,"Total Upgrades:" + string(global.stats.random_vars.total_upgrades),1*(view_wport[0]/768),1*(view_wport[0]/768),0)
 draw_text_transformed(x_1,y_3+spacing*5,"Ads Watched:" + string(global.stats.random_vars.ads_watched),1*(view_wport[0]/768),1*(view_wport[0]/768),0)
+draw_text_transformed(x_1,y_3+spacing*6,"Player ID:" + string(global.stats.random_vars.player_id),1*(view_wport[0]/768),1*(view_wport[0]/768),0)
 /// draws the title
 draw_set_halign(fa_center)
 draw_set_color(c_blue)
