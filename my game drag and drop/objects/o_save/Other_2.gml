@@ -5,7 +5,7 @@
 
 /// loading saved files
 
-	
+	room_goto(r_survey)
 
 		if (file_exists("savedgame.save"))
 		{

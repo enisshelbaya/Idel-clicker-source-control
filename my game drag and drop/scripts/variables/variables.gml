@@ -63,12 +63,8 @@ global.stats = {
 	  vol:0,
 	  volume_index:0,
 	  ads_watched:0,
-	  name:0,
+	  name_1:0,
 	  age:0,
-	  location:0,
-	  name:0,
-	  age:0,
-	  location:0,
 	  phone_number:0,
 	  email_adress:0,
 	  player_id:0

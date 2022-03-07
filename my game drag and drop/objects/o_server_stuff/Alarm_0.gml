@@ -4,7 +4,6 @@ var data =
 {
 	name:0,
 	age:0,
-	location:0,
 	phone_number:0,
 	email_adress:0,
 	Clicker_Power: global.stats.random_vars.Clicker_Power,
