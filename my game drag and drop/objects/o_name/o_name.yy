@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite30",
-    "path": "sprites/Sprite30/Sprite30.yy",
+    "name": "s_survey_do_not_delete",
+    "path": "sprites/s_survey_do_not_delete/s_survey_do_not_delete.yy",
   },
   "solid": false,
   "visible": true,

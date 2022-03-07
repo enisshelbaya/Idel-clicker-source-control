@@ -3,7 +3,7 @@
 name_cursor = 0
 cursor = "";
 message1 = "";
-limit = 20;
+limit = 19;
 global.message1 = "";
 global.message2 = "";
 global.message3 = "";

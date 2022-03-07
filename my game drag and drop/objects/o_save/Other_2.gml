@@ -5,8 +5,6 @@
 
 /// loading saved files
 
-	room_goto(r_survey)
-
 		if (file_exists("savedgame.save"))
 		{
 			global.game_has_never_ran = false
@@ -69,6 +67,8 @@
 	else
 		{
 			global.game_has_never_ran = true
+			if (global.game_has_never_ran = true)
+			{room_goto(r_survey)}
 		}
 show_debug_message(global.stats.random_vars.player_id)
 if (global.stats.random_vars.player_id = 0)
