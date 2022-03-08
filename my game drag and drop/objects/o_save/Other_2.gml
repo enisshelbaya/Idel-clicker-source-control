@@ -75,4 +75,16 @@ if (global.stats.random_vars.player_id = 0)
 {
 	randomize()
 	global.stats.random_vars.player_id = irandom_range(0,99999999999999999999999999999999999999)
+	FirebaseRealTime().EqualTo(string(global.stats.random_vars.player_id)).Read()
+	if (_a = 0)
+	{
+		randomize()
+		global.stats.random_vars.player_id = irandom_range(0,99999999999999999999999999999999999999)}
+
 }
+
+
+	FirebaseRealTime().EqualTo(string(global.stats.random_vars.player_id)).Read()
+	show_debug_message(_a)
+	 
+ 

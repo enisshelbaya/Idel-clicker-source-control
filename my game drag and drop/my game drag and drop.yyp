@@ -89,7 +89,6 @@
     {"id":{"name":"s_snow_flakes","path":"sprites/s_snow_flakes/s_snow_flakes.yy",},"order":4,},
     {"id":{"name":"Font30","path":"fonts/Font30/Font30.yy",},"order":4,},
     {"id":{"name":"transparent_header_manager","path":"objects/transparent_header_manager/transparent_header_manager.yy",},"order":22,},
-    {"id":{"name":"s_done","path":"objects/s_done/s_done.yy",},"order":13,},
     {"id":{"name":"variables","path":"scripts/variables/variables.yy",},"order":0,},
     {"id":{"name":"Coffee_slurping","path":"sounds/Coffee_slurping/Coffee_slurping.yy",},"order":1,},
     {"id":{"name":"ice_in_a_cup","path":"sounds/ice_in_a_cup/ice_in_a_cup.yy",},"order":3,},
