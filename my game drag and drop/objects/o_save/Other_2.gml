@@ -5,6 +5,7 @@
 
 /// loading saved files
 
+
 		if (file_exists("savedgame.save"))
 		{
 			global.game_has_never_ran = false
@@ -70,21 +71,11 @@
 			if (global.game_has_never_ran = true)
 			{room_goto(r_survey)}
 		}
-show_debug_message(global.stats.random_vars.player_id)
+
+
 if (global.stats.random_vars.player_id = 0)
 {
 	randomize()
 	global.stats.random_vars.player_id = irandom_range(0,99999999999999999999999999999999999999)
-	FirebaseRealTime().EqualTo(string(global.stats.random_vars.player_id)).Read()
-	if (_a = 0)
-	{
-		randomize()
-		global.stats.random_vars.player_id = irandom_range(0,99999999999999999999999999999999999999)}
-
 }
-
-
-	FirebaseRealTime().EqualTo(string(global.stats.random_vars.player_id)).Read()
-	show_debug_message(_a)
-	 
  

@@ -6,5 +6,6 @@ run_alarm_0 = true
 second = 0;
 alarm[0] = room_speed*1
 run_alarm_4 = false
+global.golden_shower = false
 golden_shower = 0
 

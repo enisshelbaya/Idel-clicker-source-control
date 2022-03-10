@@ -10,4 +10,4 @@
 		global.stats.click_power.click_power_cost = global.stats.click_power.click_power_cost*2.5
 		global.stats.random_vars.total_upgrades += 1;
 		}
-	else {audio_play_sound(error,1,false)}
+
