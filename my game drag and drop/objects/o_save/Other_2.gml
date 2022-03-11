@@ -3,9 +3,10 @@
 // loading in variables from json file
 //make's sure that the seed changes for every game 
 
+
+
+
 /// loading saved files
-
-
 		if (file_exists("savedgame.save"))
 		{
 			global.game_has_never_ran = false

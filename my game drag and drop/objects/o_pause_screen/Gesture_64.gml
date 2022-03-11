@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-Golden_amount = global.stats.random_vars.manager_strength*300
 
-
-
-
+instance_deactivate_object(o_pause_screen)
+audio_play_sound(button_click,50,false)
 

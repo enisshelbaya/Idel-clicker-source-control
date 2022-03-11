@@ -26,6 +26,7 @@
     {"id":{"name":"s_food_processor","path":"sprites/s_food_processor/s_food_processor.yy",},"order":15,},
     {"id":{"name":"o_manager_coffee","path":"objects/o_manager_coffee/o_manager_coffee.yy",},"order":1,},
     {"id":{"name":"s_close","path":"sprites/s_close/s_close.yy",},"order":3,},
+    {"id":{"name":"o_pause_screen","path":"objects/o_pause_screen/o_pause_screen.yy",},"order":36,},
     {"id":{"name":"o_button","path":"objects/o_button/o_button.yy",},"order":9,},
     {"id":{"name":"o_manager_oven","path":"objects/o_manager_oven/o_manager_oven.yy",},"order":1,},
     {"id":{"name":"o_counter_10","path":"objects/o_counter_10/o_counter_10.yy",},"order":1,},

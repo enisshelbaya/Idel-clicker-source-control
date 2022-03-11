@@ -19,4 +19,3 @@ if (global.stats.random_vars.Clicker_Power > 1000)   // makers sure that this co
 
 /// multipler for taps per second 
 // tps
-

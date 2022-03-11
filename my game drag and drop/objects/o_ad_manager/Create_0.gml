@@ -4,8 +4,8 @@
 /// @description Initialize variables
 //intializing some varibles for the ad reward button 
 global.click = true
-global.reward_ad_clicked=false
-global.inter_ad_clicked =false
+global.reward_ad_clicked = false
+global.inter_ad_clicked = false
 /*
 	The first step to configure AdMob with your application/game is to get the
 	unique string ad block ids from the google development console for you app.
