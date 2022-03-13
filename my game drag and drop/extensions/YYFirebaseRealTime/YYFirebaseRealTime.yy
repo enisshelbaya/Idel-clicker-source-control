@@ -68,7 +68,7 @@
   "tvosCocoaPodDependencies": "",
   "parent": {
     "name": "Extensions",
-    "path": "folders/Firebase RealTime/Extensions.yy",
+    "path": "folders/Extensions/Firebase RealTime/Extensions.yy",
   },
   "resourceVersion": "1.2",
   "name": "YYFirebaseRealTime",

@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "ad_realated_stuff",
+    "path": "folders/Objects/ad_realated_stuff.yy",
   },
   "resourceVersion": "1.0",
   "name": "reward_ad_welcome_screen_controler",

@@ -163,7 +163,7 @@
   "tvosCocoaPodDependencies": "",
   "parent": {
     "name": "Extensions",
-    "path": "folders/AdMob/Extensions.yy",
+    "path": "folders/Extensions/AdMob/Extensions.yy",
   },
   "resourceVersion": "1.2",
   "name": "AdMob",

@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "Spr_YoYo_button",
-    "path": "sprites/Spr_YoYo_button/Spr_YoYo_button.yy",
+    "name": "",
+    "path": "",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "Obj_YoYo_button",
-    "path": "objects/Obj_YoYo_button/Obj_YoYo_button.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Consent GDPR",
-    "path": "folders/AdMob/Objects/Consent GDPR.yy",
+    "path": "folders/Extensions/AdMob/Objects/Consent GDPR.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_AdMob_Consent_Reset",

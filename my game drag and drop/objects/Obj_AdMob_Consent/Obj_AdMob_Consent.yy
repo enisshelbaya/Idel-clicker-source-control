@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Consent GDPR",
-    "path": "folders/AdMob/Objects/Consent GDPR.yy",
+    "path": "folders/Extensions/AdMob/Objects/Consent GDPR.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_AdMob_Consent",
