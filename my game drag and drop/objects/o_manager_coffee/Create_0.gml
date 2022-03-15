@@ -6,5 +6,5 @@ image_xscale=view_wport[0]/3840;
 image_yscale=view_wport[0]/3840;
 x = view_wport[0]*0.125
 y = global.y_start+global.spacing*2
-global.stats.random_vars.Currency_amount +=2000000000000000000000000
+
 
