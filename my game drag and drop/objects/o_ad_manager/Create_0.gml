@@ -20,14 +20,16 @@ global.inter_ad_clicked = false
 	
 */
 AdMob_SetTestDeviceId();
-var INTERSTITIAL_ID,REWANTED_ID;
+var INTERSTITIAL_ID,REWANTED_ID,BANNER_ID;
 if(os_type == os_android)
 {
+	BANNER_ID = "ca-app-pub-3940256099942544/6300978111";
 	INTERSTITIAL_ID ="ca-app-pub-3940256099942544/1033173712";
 	REWANTED_ID = "ca-app-pub-3940256099942544/5224354917";	
 }
 else if(os_type == os_ios)
 {
+	BANNER_ID = "ca-app-pub-3940256099942544/2934735716";
 	INTERSTITIAL_ID = "ca-app-pub-3940256099942544/4411468910";
 	REWANTED_ID = "ca-app-pub-3940256099942544/1712485313";	
 }
@@ -38,6 +40,7 @@ AdMob_Initialize();
 
 // After API initialization you should also initialize the ad types your application uses
 // with the respective ad block id strings.
+AdMob_Banner_Init(BANNER_ID);
 AdMob_Interstitial_Init(INTERSTITIAL_ID);
 AdMob_RewardedVideo_Init(REWANTED_ID);
 alarm[0]=room_speed*60

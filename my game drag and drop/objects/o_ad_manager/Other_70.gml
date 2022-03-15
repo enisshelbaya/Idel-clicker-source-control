@@ -17,7 +17,6 @@ switch(async_load[?"type"])
 		AdMob_Interstitial_Load();
 		AdMob_RewardedVideo_Load();
 		break;
-	
 	// AdMob_Interstitial_Load succeeded
 	case "AdMob_Interstitial_OnLoaded":
 		// At this point the interstitial ad succeeded to load.
