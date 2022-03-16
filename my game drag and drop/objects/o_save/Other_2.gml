@@ -69,8 +69,6 @@
 	else
 		{
 			global.game_has_never_ran = true
-			if (global.game_has_never_ran = true)
-			{room_goto(r_survey)}
 		}
 
 

@@ -2,10 +2,6 @@
 // You can write your code in this editor
 var data = 
 {
-	name:global.stats.random_vars.name_1,
-	age:global.stats.random_vars.age,
-	phone_number:global.stats.random_vars.phone_number,
-	email_adress:global.stats.random_vars.email_adress,
 	Clicker_Power: global.stats.random_vars.Clicker_Power,
 	manager_strength: global.stats.random_vars.manager_strength,
 	Currency_amount: floor(global.stats.random_vars.Currency_amount),

@@ -2,7 +2,9 @@
 // You can write your code in this editor
 
 /// @description Initialize variables
-//intializing some varibles for the ad reward button 
+//intializing some varibles for the ad reward button
+count = 5
+draw = false
 global.click = true
 global.reward_ad_clicked = false
 global.inter_ad_clicked = false
@@ -26,6 +28,12 @@ if(os_type == os_android)
 	BANNER_ID = "ca-app-pub-3940256099942544/6300978111";
 	INTERSTITIAL_ID ="ca-app-pub-3940256099942544/1033173712";
 	REWANTED_ID = "ca-app-pub-3940256099942544/5224354917";	
+	
+	/* these are real ids that should be used when the app is getting released 
+	BANNER_ID = "ca-app-pub-2634035507329430/3531709413";
+	INTERSTITIAL_ID ="ca-app-pub-2634035507329430/4987534961";
+	REWANTED_ID = "ca-app-pub-2634035507329430/4915135357";	
+	*/
 }
 else if(os_type == os_ios)
 {
