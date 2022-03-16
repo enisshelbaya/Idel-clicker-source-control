@@ -80,14 +80,21 @@ switch(async_load[?"type"])
 		// At this point the rewarded video just got dismissed.
 		// Here we use this event to load the next rewarded video.
 		AdMob_RewardedVideo_Load();
+
+		break;
+				// RewardedVideo triggered the reward event
+	case "AdMob_RewardedVideo_OnReward":
+		// At this point the user watched enough of the rewarded video and
+		// can be rewarded for it. Here we can add the reward code.
+		AdMob_RewardedVideo_Load();
 		global.stats.random_vars.ads_watched += 1
 		global.stats.random_vars.Currency_amount += (global.stats.random_vars.manager_strength*1500)
 		global.click=false
 		room_goto(r_main)
 		global.reward_ad_clicked=true
 		alarm[1]=room_speed*30
-
 		break;
+		
 	
 	
 }
