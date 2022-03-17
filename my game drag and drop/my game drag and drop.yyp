@@ -36,6 +36,7 @@
     {"id":{"name":"s_tongs","path":"sprites/s_tongs/s_tongs.yy",},"order":13,},
     {"id":{"name":"o_counter_mixer","path":"objects/o_counter_mixer/o_counter_mixer.yy",},"order":0,},
     {"id":{"name":"Sprite32","path":"sprites/Sprite32/Sprite32.yy",},"order":14,},
+    {"id":{"name":"AdMob","path":"extensions/AdMob/AdMob.yy",},"order":0,},
     {"id":{"name":"o_counter_sharpener","path":"objects/o_counter_sharpener/o_counter_sharpener.yy",},"order":0,},
     {"id":{"name":"o_manager_board","path":"objects/o_manager_board/o_manager_board.yy",},"order":1,},
     {"id":{"name":"o_counter_stove","path":"objects/o_counter_stove/o_counter_stove.yy",},"order":0,},
@@ -50,6 +51,10 @@
     {"id":{"name":"s_survey_do_not_delete","path":"sprites/s_survey_do_not_delete/s_survey_do_not_delete.yy",},"order":12,},
     {"id":{"name":"smoothview_can_press","path":"scripts/smoothview_can_press/smoothview_can_press.yy",},"order":2,},
     {"id":{"name":"o_close_store","path":"objects/o_close_store/o_close_store.yy",},"order":16,},
+<<<<<<< Updated upstream
+=======
+    {"id":{"name":"reward_ad_welcome_screen_controler","path":"objects/reward_ad_welcome_screen_controler/reward_ad_welcome_screen_controler.yy",},"order":5,},
+>>>>>>> Stashed changes
     {"id":{"name":"o_save","path":"objects/o_save/o_save.yy",},"order":4,},
     {"id":{"name":"All_about_numbers","path":"scripts/All_about_numbers/All_about_numbers.yy",},"order":1,},
     {"id":{"name":"click_effect","path":"fonts/click_effect/click_effect.yy",},"order":2,},
@@ -121,6 +126,10 @@
     {"id":{"name":"r_main","path":"rooms/r_main/r_main.yy",},"order":3,},
     {"id":{"name":"resolution_manager","path":"objects/resolution_manager/resolution_manager.yy",},"order":24,},
     {"id":{"name":"o_manager_scissors","path":"objects/o_manager_scissors/o_manager_scissors.yy",},"order":1,},
+<<<<<<< Updated upstream
+=======
+    {"id":{"name":"inter_ad_welcome_screen_controler","path":"objects/inter_ad_welcome_screen_controler/inter_ad_welcome_screen_controler.yy",},"order":4,},
+>>>>>>> Stashed changes
     {"id":{"name":"s_click_power","path":"sprites/s_click_power/s_click_power.yy",},"order":10,},
     {"id":{"name":"o_manager_pans","path":"objects/o_manager_pans/o_manager_pans.yy",},"order":1,},
   ],
@@ -181,6 +190,11 @@
     {"folderPath":"folders/Objects/o_manager_power_upgrades/oven_17.yy","order":16,"resourceVersion":"1.0","name":"oven_17","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/o_manager_power_upgrades/countertop_mixer_18.yy","order":17,"resourceVersion":"1.0","name":"countertop_mixer_18","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/manager sprites.yy","order":9,"resourceVersion":"1.0","name":"manager sprites","tags":[],"resourceType":"GMFolder",},
+<<<<<<< Updated upstream
+=======
+    {"folderPath":"folders/Objects/ad_realated_stuff/watch ad.yy","order":1,"resourceVersion":"1.0","name":"watch ad","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/ad_realated_stuff.yy","order":27,"resourceVersion":"1.0","name":"ad_realated_stuff","tags":[],"resourceType":"GMFolder",},
+>>>>>>> Stashed changes
     {"folderPath":"folders/AdMob.yy","order":12,"resourceVersion":"1.0","name":"AdMob","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/AdMob/Extensions.yy","order":1,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
   ],
