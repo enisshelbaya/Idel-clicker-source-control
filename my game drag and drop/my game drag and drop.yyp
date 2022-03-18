@@ -52,7 +52,10 @@
     {"id":{"name":"smoothview_can_press","path":"scripts/smoothview_can_press/smoothview_can_press.yy",},"order":2,},
     {"id":{"name":"o_close_store","path":"objects/o_close_store/o_close_store.yy",},"order":16,},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     {"id":{"name":"reward_ad_welcome_screen_controler","path":"objects/reward_ad_welcome_screen_controler/reward_ad_welcome_screen_controler.yy",},"order":5,},
 >>>>>>> Stashed changes
     {"id":{"name":"o_save","path":"objects/o_save/o_save.yy",},"order":4,},
@@ -129,6 +132,10 @@
 <<<<<<< Updated upstream
 =======
     {"id":{"name":"inter_ad_welcome_screen_controler","path":"objects/inter_ad_welcome_screen_controler/inter_ad_welcome_screen_controler.yy",},"order":4,},
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+    {"id":{"name":"AdMob","path":"extensions/AdMob/AdMob.yy",},"order":0,},
 >>>>>>> Stashed changes
     {"id":{"name":"s_click_power","path":"sprites/s_click_power/s_click_power.yy",},"order":10,},
     {"id":{"name":"o_manager_pans","path":"objects/o_manager_pans/o_manager_pans.yy",},"order":1,},
@@ -191,12 +198,20 @@
     {"folderPath":"folders/Objects/o_manager_power_upgrades/countertop_mixer_18.yy","order":17,"resourceVersion":"1.0","name":"countertop_mixer_18","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/manager sprites.yy","order":9,"resourceVersion":"1.0","name":"manager sprites","tags":[],"resourceType":"GMFolder",},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
     {"folderPath":"folders/Objects/ad_realated_stuff/watch ad.yy","order":1,"resourceVersion":"1.0","name":"watch ad","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/ad_realated_stuff.yy","order":27,"resourceVersion":"1.0","name":"ad_realated_stuff","tags":[],"resourceType":"GMFolder",},
 >>>>>>> Stashed changes
     {"folderPath":"folders/AdMob.yy","order":12,"resourceVersion":"1.0","name":"AdMob","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/AdMob/Extensions.yy","order":1,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+=======
+    {"folderPath":"folders/Extensions/AdMob.yy","order":1,"resourceVersion":"1.0","name":"AdMob","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Extensions/AdMob/Objects.yy","order":0,"resourceVersion":"1.0","name":"Objects","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Extensions/AdMob/Extensions.yy","order":1,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/ad_realated_stuff/watch ad.yy","order":1,"resourceVersion":"1.0","name":"watch ad","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/ad_realated_stuff.yy","order":27,"resourceVersion":"1.0","name":"ad_realated_stuff","tags":[],"resourceType":"GMFolder",},
+>>>>>>> Stashed changes
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
