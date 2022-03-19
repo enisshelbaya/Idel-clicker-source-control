@@ -24,4 +24,4 @@ else
 }
 draw_set_valign(fa_top)
 draw_set_font(Font4)
-draw_text_transformed(view_wport[0]*0.30,o_manager_mixer.y-(view_hport[0]*0.043), "Countertop Mixer",1*(view_wport[0]/768),1*(view_wport[0]/768),0)
+draw_text_transformed(view_wport[0]*0.30,o_manager_mixer.y-(view_hport[0]*0.043), "Mixer",1*(view_wport[0]/768),1*(view_wport[0]/768),0)

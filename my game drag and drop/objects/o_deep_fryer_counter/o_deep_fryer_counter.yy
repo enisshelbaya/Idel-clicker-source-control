@@ -17,15 +17,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "ad_realated_stuff",
-    "path": "folders/Objects/ad_realated_stuff.yy",
+    "name": "deep_fryer 29",
+    "path": "folders/Objects/o_manager_power_upgrades/deep_fryer 29.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ad_playing_in",
+  "name": "o_deep_fryer_counter",
   "tags": [],
   "resourceType": "GMObject",
 }

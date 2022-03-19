@@ -8,3 +8,4 @@ Current_time = date_second_span(unix_start_point,date_current_datetime())
 // intializing variables for the manager hold tap buys
 global.quick_buy_count = 0
 global.quick_buy_time = 45
+global.stats.random_vars.Currency_amount += 8000000000000000000000000000000000000000000000000000000000000000000

@@ -24,10 +24,12 @@ else
 {
 	// Not Loaded: load interstitial ad
 	AdMob_Interstitial_Load();
+	draw = false
 
 }
 }
 else 
 {
+draw = false
 alarm[0] = room_speed*100
 }
