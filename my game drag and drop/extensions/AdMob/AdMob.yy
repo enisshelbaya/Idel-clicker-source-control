@@ -162,8 +162,8 @@
   "iosCocoaPodDependencies": "",
   "tvosCocoaPodDependencies": "",
   "parent": {
-    "name": "Extensions",
-    "path": "folders/Extensions/AdMob/Extensions.yy",
+    "name": "AdMob",
+    "path": "folders/Extensions/AdMob.yy",
   },
   "resourceVersion": "1.2",
   "name": "AdMob",

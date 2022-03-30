@@ -40,3 +40,4 @@ commericial oven https://www.flaticon.com/free-icons/oven Oven icons created by 
 toaster https://www.flaticon.com/free-icons/toaster Toaster icons created by Good Ware - Flaticon
 meat grinder https://www.flaticon.com/free-icons/meat-grinder Meat grinder icons created by Freepik - Flaticon
 deep fryer https://www.flaticon.com/free-icons/deep-fryer Deep fryer icons created by smashingstocks - Flaticon
+clock "https://www.flaticon.com/free-icons/clock" Clock icons created by Freepik - Flaticon

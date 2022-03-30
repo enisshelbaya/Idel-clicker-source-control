@@ -47,6 +47,7 @@ switch(async_load[?"type"])
 		AdMob_Interstitial_Load();
 		global.stats.random_vars.ads_watched += 1
 		global.stats.random_vars.Currency_amount += (global.stats.random_vars.manager_strength*1500)
+		global.stats.random_vars.Total_lifetime_cookies += (global.stats.random_vars.manager_strength*1500)
 		room_goto(r_main)
 		global.inter_ad_clicked = true
 		
@@ -89,6 +90,7 @@ switch(async_load[?"type"])
 		AdMob_RewardedVideo_Load();
 		global.stats.random_vars.ads_watched += 1
 		global.stats.random_vars.Currency_amount += (global.stats.random_vars.manager_strength*1500)
+		global.stats.random_vars.Total_lifetime_cookies += (global.stats.random_vars.manager_strength*1500)
 		global.click=false
 		room_goto(r_main)
 		global.reward_ad_clicked=true

@@ -25,10 +25,10 @@ number_abbreviated = Number_Abbreviate(number_array)
 	draw_set_font(title_screen)
 	
 	
-	draw_text_transformed(view_wport[0]*0.5,x_1, "Thank you for Watching this rewarded ad.",1*(view_wport[0]/768),1*(view_wport[0]/768),0)
+	draw_text_transformed(view_wport[0]*0.5,x_1, "Thank you for watching this ad.",1*(view_wport[0]/768),1*(view_wport[0]/768),0)
 if ((global.stats.random_vars.manager_strength*1500)<1000000)
-{draw_text_transformed(view_wport[0]*0.5,x_2,"You were gifted "+ string(floor(global.stats.random_vars.manager_strength*1500))+" Eggs",1*(view_wport[0]/768),1*(view_wport[0]/768),0)}
+{draw_text_transformed(view_wport[0]*0.5,x_2,"Enjoy your reward "+ string(floor(global.stats.random_vars.manager_strength*1500))+" Eggs",1*(view_wport[0]/768),1*(view_wport[0]/768),0)}
 else
-{draw_text_transformed(view_wport[0]*0.5,x_2, "You were gifted " + string(number_abbreviated)+" Eggs",0.8*(view_wport[0]/768),0.8*(view_wport[0]/768),0)}
+{draw_text_transformed(view_wport[0]*0.5,x_2, "Enjoy your reward " + string(number_abbreviated)+" Eggs",0.8*(view_wport[0]/768),0.8*(view_wport[0]/768),0)}
 		
 		

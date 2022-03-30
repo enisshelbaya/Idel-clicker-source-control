@@ -14,7 +14,6 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"o_server_stuff","path":"objects/o_server_stuff/o_server_stuff.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":32.0,"resourceVersion":"1.0","name":"inst_908C357","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"bars","path":"objects/bars/bars.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":32.0,"resourceVersion":"1.0","name":"inst_34926114","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_currency_count_main","path":"objects/o_currency_count_main/o_currency_count_main.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":64.0,"resourceVersion":"1.0","name":"inst_267EDD79","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"level_up","path":"objects/level_up/level_up.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.195313,"scaleY":0.195313,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":1056.0,"resourceVersion":"1.0","name":"inst_1A5D4917","tags":[],"resourceType":"GMRInstance",},
@@ -57,7 +56,6 @@
     {"name":"inst_5D2EB062","path":"rooms/r_main/r_main.yy",},
     {"name":"inst_26D82F68","path":"rooms/r_main/r_main.yy",},
     {"name":"inst_488926DC","path":"rooms/r_main/r_main.yy",},
-    {"name":"inst_908C357","path":"rooms/r_main/r_main.yy",},
     {"name":"inst_791C5C35","path":"rooms/r_main/r_main.yy",},
     {"name":"inst_6CF792BB","path":"rooms/r_main/r_main.yy",},
     {"name":"inst_3E57514E","path":"rooms/r_main/r_main.yy",},
