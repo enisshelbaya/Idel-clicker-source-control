@@ -38,10 +38,18 @@ if(os_type == os_android)
 	
 }
 else if(os_type == os_ios)
-{
+{ 
+	//test ids
+	/*
 	BANNER_ID = "ca-app-pub-3940256099942544/2934735716";
 	INTERSTITIAL_ID = "ca-app-pub-3940256099942544/4411468910";
 	REWANTED_ID = "ca-app-pub-3940256099942544/1712485313";	
+	*/
+	//real ids 
+	BANNER_ID = "ca-app-pub-2634035507329430/5774729372";	
+	INTERSTITIAL_ID = "ca-app-pub-2634035507329430/2058157280";	
+	REWANTED_ID = "ca-app-pub-2634035507329430/4274284756";	
+	
 }
 
 // The first function to be called is Initialize, this is demanding that it is called in first
