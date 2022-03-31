@@ -21,19 +21,21 @@ global.inter_ad_clicked = false
 	Android to iOS so we also provide a code sample that acounts for that.
 	
 */
-AdMob_SetTestDeviceId();
+//AdMob_SetTestDeviceId();
 var INTERSTITIAL_ID,REWANTED_ID,BANNER_ID;
 if(os_type == os_android)
 {
+	//test ids
+	/*
 	BANNER_ID = "ca-app-pub-3940256099942544/6300978111";
 	INTERSTITIAL_ID ="ca-app-pub-3940256099942544/1033173712";
 	REWANTED_ID = "ca-app-pub-3940256099942544/5224354917";	
-	
-	/* these are real ids that should be used when the app is getting released 
+	*/
+	// these are real ids that should be used when the app is getting released 
 	BANNER_ID = "ca-app-pub-2634035507329430/3531709413";
 	INTERSTITIAL_ID ="ca-app-pub-2634035507329430/4987534961";
 	REWANTED_ID = "ca-app-pub-2634035507329430/4915135357";	
-	*/
+	
 }
 else if(os_type == os_ios)
 {

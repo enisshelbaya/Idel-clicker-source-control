@@ -8,7 +8,7 @@ draw_set_valign(fa_middle)
 draw_set_font(Welcome)
 // draw_text_transformed(view_wport[0]*0.5,view_hport[0]*0.45, "Challenge begins in ",1*(view_wport[0]/768),1*(view_wport[0]/768),0)
 // draw_text_transformed(view_wport[0]*0.5,view_hport[0]*0.45, "Challenge ends in ",1*(view_wport[0]/768),1*(view_wport[0]/768),0)
- draw_text_transformed(view_wport[0]*0.51,view_hport[0]*0.5, "No upcoming challenge ",0.98*(view_wport[0]/768),0.98*(view_wport[0]/768),0)
+   draw_text_transformed(view_wport[0]*0.51,view_hport[0]*0.5, "No upcoming challenge ",0.98*(view_wport[0]/768),0.98*(view_wport[0]/768),0)
 draw_set_font(title_screen)
 draw_set_color(c_white)
 
