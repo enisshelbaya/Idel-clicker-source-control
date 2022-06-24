@@ -101,8 +101,8 @@ global.stats = {
 	  total_upgrades:0,
 	  vol:0,
 	  volume_index:0,
-	  ads_watched:0,
-	  player_id:0
+	  player_id:0,
+	  cake:0
   },
   
   

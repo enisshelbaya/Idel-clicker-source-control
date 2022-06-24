@@ -67,7 +67,7 @@
   "option_android_application_tag_inject": "",
   "option_android_google_apk_expansion": false,
   "option_android_google_dynamic_asset_delivery": false,
-  "option_android_google_licensing_public_key": "",
+  "option_android_google_licensing_public_key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAytnuPfHW9LpDC/kdcdMH0BpUygZ6qk+7fGnzAntVfxendLKuyuN1qsLUmTwwlcv59YhgU1bX/I2wbUAuk6j3GJf4bUDSIj/Ny2u9+dxEc0DoImVc0yoCxcCQY1fi7y6qvdVH1isJr1CFDdZgiQ6Oe16NzpXUAUbmcePPwDKMBNxDAzTQSRURa7TDJHJMHNWFVz8KudHOMAeLygbyyMPYcyH4TDj/lS3Rr01yhrxAGWNaOOI/6jpqwtxPxT3oFvgTuhlPeTZfjqPFrKJtvAr4dzEBKTTMwq4kmXjZlTbUtWCNV7glnSKolEbEh0Mw+Anr524TiOPbAt/tStgHuVNGWwIDAQAB",
   "option_android_tv_isgame": true,
   "resourceVersion": "1.0",
   "name": "Android",

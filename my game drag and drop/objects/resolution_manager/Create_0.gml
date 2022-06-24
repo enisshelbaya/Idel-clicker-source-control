@@ -13,6 +13,7 @@ display_set_gui_size(dis_w,dis_h)
 global.spacing = view_hport[0]*0.156
 global.y_start = view_hport[0]*0.278
 room_set_height(r_managers,global.y_start+(global.spacing*31))
+room_set_height(r_store,global.y_start+(global.spacing*10))
 if (os_is_network_connected()) {run = false}
 if (os_is_network_connected() = false) {run = true}
 

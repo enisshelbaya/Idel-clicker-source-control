@@ -41,3 +41,6 @@ toaster https://www.flaticon.com/free-icons/toaster Toaster icons created by Goo
 meat grinder https://www.flaticon.com/free-icons/meat-grinder Meat grinder icons created by Freepik - Flaticon
 deep fryer https://www.flaticon.com/free-icons/deep-fryer Deep fryer icons created by smashingstocks - Flaticon
 clock "https://www.flaticon.com/free-icons/clock" Clock icons created by Freepik - Flaticon
+store Icon <a href="https://www.flaticon.com/free-icons/online-shop" title="online shop icons">Online shop icons created by Freepik - Flaticon</a>
+egg icon <a href="https://www.flaticon.com/free-icons/egg" title="egg icons">Egg icons created by AmethystDesign - Flaticon</a>
+diamond icons <a href="https://www.flaticon.com/free-icons/diamond" title="diamond icons">Diamond icons created by Alfredo Hernandez - Flaticon</a>
