@@ -33,7 +33,7 @@
     "path": "folders/Objects/in-app-purchases.yy",
   },
   "resourceVersion": "1.0",
-  "name": "IAP_50_diamond",
+  "name": "IAP_7500_diamond",
   "tags": [],
   "resourceType": "GMObject",
 }
