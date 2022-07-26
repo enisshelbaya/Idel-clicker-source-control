@@ -1,17 +1,14 @@
 {
   "spriteId": {
-    "name": "s_oven",
-    "path": "sprites/s_oven/s_oven.yy",
+    "name": "s_diamond",
+    "path": "sprites/s_diamond/s_diamond.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "parent_manager",
-    "path": "objects/parent_manager/parent_manager.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,18 +22,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":13,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "oven_17",
-    "path": "folders/Objects/o_manager_power_upgrades/o_scissors_7/oven_17.yy",
+    "name": "click_power_10",
+    "path": "folders/Objects/o_click_power_upgrades/click_power_10.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_manager_oven",
+  "name": "diamonds_tab",
   "tags": [],
   "resourceType": "GMObject",
 }
