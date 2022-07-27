@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects/GooglePlayBilling/Objects.yy",
+    "name": "Parents",
+    "path": "folders/Objects/GooglePlayBilling/Objects/Parents.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_GooglePlayBilling",

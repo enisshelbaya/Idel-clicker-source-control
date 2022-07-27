@@ -6,12 +6,8 @@ draw_set_font(font_cake)
 draw_set_valign(fa_middle)
 draw_set_halign(fa_right)
 draw_set_color(c_white)
-if (global.stats.random_vars.cake > 1000000 ) {
-draw_text_transformed(view_wport[0]*0.9,view_hport[0]*0.05,  number_abbreviated ,1*(view_wport[0]/768),1*(view_wport[0]/768),0);
-}
-else {
-	draw_text_transformed(view_wport[0]*0.9,view_hport[0]*0.05,  string(floor(global.stats.random_vars.cake)), 1*(view_wport[0]/768),1*(view_wport[0]/768),0);
-}
+//draws diamond amount
+draw_text_transformed(view_wport[0]*0.9,view_hport[0]*0.05,  string(floor(global.stats.random_vars.diamond_amount)), 1*(view_wport[0]/768),1*(view_wport[0]/768),0);
 
 
 draw_set_font(f_Arial_Size_48)

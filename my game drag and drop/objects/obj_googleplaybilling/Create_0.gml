@@ -1,9 +1,15 @@
 
 // We start by definining 3 macros one for each product with the respective SKU ids.
 // this is not necessary but will help with code auto-completion further down the line.
-#macro IAP_100gems "yoyo_100gems"
-#macro IAP_noads "yoyo_noads"
-#macro IAP_premium "yoyo_premium_subscription"
+global.IAP_Enabled = false;
+global.IAP_PurchaseID[0] = "diamonds_50";
+global.IAP_PurchaseID[1] = "diamonds_100";
+global.IAP_PurchaseID[2] = "diamonds_500";
+global.IAP_PurchaseID[3] = "diamonds_1000";
+global.IAP_PurchaseID[4] = "diamonds_1500";
+global.IAP_PurchaseID[5] = "diamonds_5000";
+global.IAP_PurchaseID[6] = "diamonds_7500";
+global.IAP_PurchaseID[7] = "diamonds_10000";
 
 // Before executing any other code we first need to initialize the Google Play Billing API.
 // This initialization is done with a simple function call and requires no arguments.

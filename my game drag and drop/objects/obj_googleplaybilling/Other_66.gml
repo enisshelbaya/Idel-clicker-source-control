@@ -10,7 +10,6 @@ switch(async_load[?"id"])
 		
 		// 1) Add the products to the local IAP
 		GPBilling_AddProduct(IAP_100gems);
-		GPBilling_AddProduct(IAP_noads);
 		GPBilling_AddSubscription(IAP_premium);
 		
 		// [UPDATED CODE]

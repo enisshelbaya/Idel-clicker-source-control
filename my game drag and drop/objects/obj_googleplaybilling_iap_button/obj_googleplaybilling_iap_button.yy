@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Parents",
-    "path": "folders/Objects/GooglePlayBilling/Objects/Parents.yy",
+    "name": "Objects",
+    "path": "folders/Objects/GooglePlayBilling/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_GooglePlayBilling_IAP_Button",
