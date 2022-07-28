@@ -15,15 +15,19 @@ switch (_eventId)
         GPBilling_AddProduct(global.IAP_PurchaseID[5]);
 		GPBilling_AddProduct(global.IAP_PurchaseID[6]);
         GPBilling_AddProduct(global.IAP_PurchaseID[7]);
+		GPBilling_AddSubscription(global.IAP_PurchaseID[8]);
         // Etc… for all products
+		GPBilling_QuerySubscriptions();
         GPBilling_QueryProducts();
         // Here you would also add any subscription products
         // using the function GooglePlayBilling_AddSubscription().
+		
         // However, you would NOT call the function GPBilling_QuerySubscriptions()
         // here if you have already queried products, but instead query
         // the subscription in the appropriate Async Event (see the "Querying
         // Products" section, below)
         break;
+		
     case gpb_store_connect_failed:
         // Store has failed to connect, so try again periodically
         alarm[0] = room_speed * 10;
@@ -39,6 +43,7 @@ switch (_eventId)
             {
             // Any code required to store query information goes here
             }
+
         var _purchase_json = GPBilling_QueryPurchases(gpb_purchase_skutype_inapp);
         var _purchase_map = json_decode(_purchase_json);
         if _purchase_map[? "success"] == true
@@ -111,6 +116,21 @@ switch (_eventId)
                         // so call the consume function on it:
                         GPBilling_ConsumeProduct(_token);
                         _add = true;
+                        }
+					if _pid == global.IAP_PurchaseID[8]
+                        {
+                        // It's a non-consumable purchase so check and see
+                        // if it's been acknowledged yet:
+                        if _map[? "acknowledged"] == 0
+                            {
+                            // It hasn't been acknowledged, so do that now:
+                            GPBilling_AcknowledgePurchase(_token);
+                            _add = true;
+                            }
+                        else
+                            {
+                            show_debug_message("I have been aknowldged ")
+                            } 
                         }
                    
                     if _add
@@ -240,6 +260,42 @@ switch (_eventId)
     else
         {
         // Parse the error response codes here
+        // and react appropriately
+        }
+    ds_map_destroy(_map);
+    break;
+	
+	case gpb_acknowledge_purchase_response:
+    var _map = json_decode(async_load[? "response_json"]);
+    var _num = -1;
+    // Check the response code to see if it has been successfully acknowledged
+    if _map[? "responseCode"] == 0
+        {
+        var _sz = ds_list_size(global.CurrentProducts);
+        // Loop through the products on the consumed/purchase list
+        // to find which one triggered this event
+        for (var i = 0; i < _sz; ++i;)
+            {
+            if global.CurrentProducts[| i] == global.IAP_PurchaseID[8]
+                {
+                // The product has been found so enable/disable
+                // the feature it corresponds to
+                _num = i;
+                break;
+                }
+            // Add further checks for other products here if required…
+            }
+        // Remove the purchased product and its purchase token
+        // from the appropriate check lists
+        if _num > -1
+            {
+            ds_list_delete(global.CurrentProducts, _num);
+            ds_list_delete(global.CurrentTokens, _num);
+            }
+        }
+    else
+        {
+        // Parse the other response codes here
         // and react appropriately
         }
     ds_map_destroy(_map);
