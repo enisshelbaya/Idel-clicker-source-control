@@ -1,0 +1,9 @@
+{
+  "extensionId": {
+    "name": "YYFirebaseRealTime",
+    "path": "extensions/YYFirebaseRealTime/YYFirebaseRealTime.yy"
+  },
+  "resourceVersion": "1.0",
+  "resourceType": "GMExtensionConfigSet",
+  "configurables": null
+}

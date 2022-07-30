@@ -1,0 +1,9 @@
+{
+  "extensionId": {
+    "name": "YYFirebaseAnalytics",
+    "path": "extensions/YYFirebaseAnalytics/YYFirebaseAnalytics.yy"
+  },
+  "resourceVersion": "1.0",
+  "resourceType": "GMExtensionConfigSet",
+  "configurables": null
+}
