@@ -17,6 +17,7 @@ draw_roundrect_ext(view_wport[0]*0.23,y_1+spacing*2,view_wport[0]*0.77,y_2+spaci
 draw_roundrect_ext(view_wport[0]*0.23,y_1+spacing*3,view_wport[0]*0.77,y_2+spacing*3,rad2,rad2,0)
 draw_roundrect_ext(view_wport[0]*0.23,y_1+spacing*4,view_wport[0]*0.77,y_2+spacing*4,rad2,rad2,0)
 draw_roundrect_ext(view_wport[0]*0.23,y_1+spacing*5,view_wport[0]*0.77,y_2+spacing*5,rad2,rad2,0)
+draw_roundrect_ext(view_wport[0]*0.23,y_1+spacing*6,view_wport[0]*0.77,y_2+spacing*6,rad2,rad2,0)
 /// draws the individual stats
 draw_set_halign(fa_left)
 draw_set_color(c_white)
@@ -30,7 +31,7 @@ draw_text_transformed(x_1,y_3+spacing*2,"Taps:" + string(global.stats.random_var
 draw_text_transformed(x_1,y_3+spacing*3,"Coffees Consumed:" + string(global.stats.random_vars.golden_boys_clicked),1*(view_wport[0]/768),1*(view_wport[0]/768),0)
 draw_text_transformed(x_1,y_3+spacing*4,"Total Upgrades:" + string(global.stats.random_vars.total_upgrades),1*(view_wport[0]/768),1*(view_wport[0]/768),0)
 draw_text_transformed(x_1,y_3+spacing*5,"Player ID:" + string(global.stats.random_vars.player_id),1*(view_wport[0]/768),1*(view_wport[0]/768),0)
-
+draw_text_transformed(x_1,y_3+spacing*6,"Ads Watched:" + string(global.stats.random_vars.ads_watched),1*(view_wport[0]/768),1*(view_wport[0]/768),0)
 /// draws the title
 draw_set_halign(fa_center)
 draw_set_color(c_blue)

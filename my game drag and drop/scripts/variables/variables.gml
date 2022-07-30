@@ -102,8 +102,9 @@ global.stats = {
 	  vol:0,
 	  volume_index:0,
 	  player_id:0,
-	  cake:0,
-	  diamond_amount:0
+	  ads_watched:0,
+	  diamond_amount:0,
+	  ads_on:0
   },
   
   

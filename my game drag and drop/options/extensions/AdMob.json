@@ -1,0 +1,9 @@
+{
+  "extensionId": {
+    "name": "AdMob",
+    "path": "extensions/AdMob/AdMob.yy"
+  },
+  "resourceVersion": "1.0",
+  "resourceType": "GMExtensionConfigSet",
+  "configurables": null
+}

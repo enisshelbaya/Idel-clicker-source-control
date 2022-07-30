@@ -10,7 +10,6 @@ global.IAP_PurchaseID[4] = "diamonds_1500";
 global.IAP_PurchaseID[5] = "diamonds_5000";
 global.IAP_PurchaseID[6] = "diamonds_7500";
 global.IAP_PurchaseID[7] = "diamonds_10000";
-global.IAP_PurchaseID[8] = "subscription"
 global.CurrentTokens = ds_list_create();
 global.CurrentProducts = ds_list_create();
 // Attempt to connect to the store

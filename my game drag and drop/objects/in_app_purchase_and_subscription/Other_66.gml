@@ -14,10 +14,8 @@ switch (_eventId)
 		GPBilling_AddProduct(global.IAP_PurchaseID[4]);
         GPBilling_AddProduct(global.IAP_PurchaseID[5]);
 		GPBilling_AddProduct(global.IAP_PurchaseID[6]);
-        GPBilling_AddProduct(global.IAP_PurchaseID[7]);
-		GPBilling_AddSubscription(global.IAP_PurchaseID[8]);
+        GPBilling_AddProduct(global.IAP_PurchaseID[7]); 
         // Etc… for all products
-		GPBilling_QuerySubscriptions();
         GPBilling_QueryProducts();
         // Here you would also add any subscription products
         // using the function GooglePlayBilling_AddSubscription().
@@ -116,21 +114,6 @@ switch (_eventId)
                         // so call the consume function on it:
                         GPBilling_ConsumeProduct(_token);
                         _add = true;
-                        }
-					if _pid == global.IAP_PurchaseID[8]
-                        {
-                        // It's a non-consumable purchase so check and see
-                        // if it's been acknowledged yet:
-                        if _map[? "acknowledged"] == 0
-                            {
-                            // It hasn't been acknowledged, so do that now:
-                            GPBilling_AcknowledgePurchase(_token);
-                            _add = true;
-                            }
-                        else
-                            {
-                            show_debug_message("I have been aknowldged ")
-                            } 
                         }
                    
                     if _add
@@ -278,8 +261,7 @@ switch (_eventId)
             {
             if global.CurrentProducts[| i] == global.IAP_PurchaseID[8]
                 {
-                // The product has been found so enable/disable
-                // the feature it corresponds to
+               global.stats.random_vars.ads_on = 1;
                 _num = i;
                 break;
                 }

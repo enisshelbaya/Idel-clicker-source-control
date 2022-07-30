@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "s_diamond",
-    "path": "sprites/s_diamond/s_diamond.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -22,18 +19,19 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":13,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":13,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "in-app-purchases",
-    "path": "folders/Objects/in-app-purchases.yy",
+    "name": "ad_realated_stuff",
+    "path": "folders/Objects/ad_realated_stuff.yy",
   },
   "resourceVersion": "1.0",
-  "name": "IAP_subscribtion",
+  "name": "inter_ad_welcome_screen",
   "tags": [],
   "resourceType": "GMObject",
 }

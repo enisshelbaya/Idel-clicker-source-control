@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "oven_17",
-    "path": "folders/Objects/o_manager_power_upgrades/o_scissors_7/oven_17.yy",
+    "path": "folders/Objects/o_manager_power_upgrades/oven_17.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_manager_oven",
