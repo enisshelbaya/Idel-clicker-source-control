@@ -30,7 +30,7 @@
     "path": "folders/Objects/in-app-purchases.yy",
   },
   "resourceVersion": "1.0",
-  "name": "in_app_purchase_and_subscription",
+  "name": "in_app_purchase",
   "tags": [],
   "resourceType": "GMObject",
 }

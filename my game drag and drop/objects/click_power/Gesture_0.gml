@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-     global.stats.random_vars.diamond_amount += 50;
 	 show_debug_message(global.stats.random_vars.diamond_amount);
 	if (global.stats.random_vars.Currency_amount > global.stats.click_power.click_power_cost)
 		{

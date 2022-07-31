@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_click_power",
-    "path": "sprites/s_click_power/s_click_power.yy",
+    "name": "s_menu",
+    "path": "sprites/s_menu/s_menu.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,18 +25,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":13,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "click_power_10",
-    "path": "folders/Objects/o_click_power_upgrades/click_power_10.yy",
+    "name": "diamond_store",
+    "path": "folders/Objects/diamond_store.yy",
   },
   "resourceVersion": "1.0",
-  "name": "click_power",
+  "name": "Object110111",
   "tags": [],
   "resourceType": "GMObject",
 }
