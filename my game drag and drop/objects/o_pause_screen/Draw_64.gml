@@ -4,7 +4,7 @@
 // You can write your code in this editor
 
 
-	
+
 	draw_set_alpha(0.8)
 	draw_roundrect_color_ext(view_wport[0]*0.05,view_hport[0]*0.39,view_wport[0]*0.95,view_hport[0]*0.62,50,50,c_black,c_black,0)
 	draw_set_alpha(1)

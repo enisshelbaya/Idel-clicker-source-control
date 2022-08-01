@@ -30,11 +30,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "diamond_store",
-    "path": "folders/Objects/diamond_store.yy",
+    "name": "3 days",
+    "path": "folders/Objects/diamond_store/3 days.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Object110111",
+  "name": "time_warp_3_days",
   "tags": [],
   "resourceType": "GMObject",
 }

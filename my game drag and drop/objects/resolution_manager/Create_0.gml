@@ -15,6 +15,7 @@ global.y_start = view_hport[0]*0.39;
 global.diamond_y_start = view_hport[0]*0.278;
 room_set_height(r_managers,global.y_start+(global.spacing*32))
 room_set_height(r_store,global.diamond_y_start+(global.spacing*7.5))
+room_set_height(r_diamond_store,global.diamond_y_start+(global.spacing*10.5))
 if (os_is_network_connected()) {run = false}
 if (os_is_network_connected() = false) {run = true}
 

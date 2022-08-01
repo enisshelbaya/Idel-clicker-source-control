@@ -4,7 +4,7 @@
 Current_time = date_second_span(unix_start_point,date_current_datetime())
 time_diffrence = Current_time - global.stats.random_vars.time;
 
-if (time_diffrence > 120 )
+if (time_diffrence > 60 )
 {
 		instance_activate_object(o_pause_screen)
 }
