@@ -8,4 +8,7 @@
 // - allow add
 // - allow delete
 // - provide a max number of allowed save slots
+if (global.locked = false)
+{
 GooglePlayServices_SavedGames_ShowSavedGamesUI("Saved Game", false, true, 1);
+}

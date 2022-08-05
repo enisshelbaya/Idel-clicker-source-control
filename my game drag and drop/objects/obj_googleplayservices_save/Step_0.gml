@@ -10,3 +10,14 @@ else
 		{
 			text = "Cloud Backup Disabled"
 		}
+		
+if (global.locked = false)
+		{
+			image_index = 0;
+			
+		}
+else
+		{
+			text = "Need to Be Signed In";
+			image_index = 2;
+		}

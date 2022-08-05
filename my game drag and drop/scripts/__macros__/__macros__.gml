@@ -14,5 +14,5 @@
 // Hidden achievement
 #macro Achievement2 "CggI47itmU0QAhAF"
 
-// Achievement locked (unlock example)
+// Achievement global.locked (unlock example)
 #macro Achievement3 "CggI47itmU0QAhAB"

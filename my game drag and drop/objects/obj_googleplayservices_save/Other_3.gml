@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (global.locked = false)
+{
 if (global.cloud_backup = true)
 {
 var path = "save_thumbnail.png"
@@ -14,3 +16,4 @@ if(GooglePlayServices_IsSignedIn()){
 	GooglePlayServices_SavedGames_CommitAndClose(Obj_GooglePlayServices_Save.uniqueName, Obj_GooglePlayServices_Save.description, jsonData, path);
 }
 }	
+}

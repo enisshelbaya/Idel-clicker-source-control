@@ -1,15 +1,10 @@
-/// @description Initialize variables
+/// @description Insert description here
+// You can write your code in this editor
 
-
-image_speed = 0;
-image_index = 0;
-image_xscale=view_wport[0]/126;
-image_yscale=view_wport[0]/504;
 if (global.locked = false)
 		{
 			text = "Show Current Save";
 			image_index = 0;
-		
 		}
 else
 		{

@@ -8,5 +8,6 @@ if (GooglePlayServices_IsSignedIn())
 else
 {
 	text = "Sign In";
+	global.cloud_backup = false;
 
 }
