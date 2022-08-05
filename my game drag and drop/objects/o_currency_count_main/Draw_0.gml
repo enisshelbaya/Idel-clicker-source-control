@@ -15,8 +15,8 @@ draw_set_valign(fa_middle)
 draw_set_halign(fa_middle)
 draw_set_color(c_white)
 
-if (global.stats.random_vars.Currency_amount > 1000000 ) {
-draw_text_transformed(view_wport[0]*0.5,view_hport[0]*0.09,  number_abbreviated ,1*(view_wport[0]/768),1*(view_wport[0]/768),0);
+if (global.stats.random_vars.Currency_amount > 1000000  ) {
+draw_text_transformed(view_wport[0]*0.5,view_hport[0]*0.09, number_abbreviated ,1*(view_wport[0]/768),1*(view_wport[0]/768),0);
 }
 else {
 	draw_text_transformed(view_wport[0]*0.5,view_hport[0]*0.09,  string(floor(global.stats.random_vars.Currency_amount))+ " Eggs" , 1*(view_wport[0]/768),1*(view_wport[0]/768),0);
@@ -24,7 +24,7 @@ else {
 
 // draws manager strength 
 draw_set_font(Font30)
-if (global.stats.random_vars.manager_strength > 1000000 ) {
+if (global.stats.random_vars.manager_strength > 1000000  ) {
 draw_text_transformed(view_wport[0]*0.5,view_hport[0]*0.13,  number_abbreviated1 + " per second" ,1*(view_wport[0]/768),1*(view_wport[0]/768),0);
 }
 else {

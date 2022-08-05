@@ -1,0 +1,9 @@
+{
+  "extensionId": {
+    "name": "GooglePlayBillingExtension",
+    "path": "extensions/GooglePlayBillingExtension/GooglePlayBillingExtension.yy"
+  },
+  "resourceVersion": "1.0",
+  "resourceType": "GMExtensionConfigSet",
+  "configurables": null
+}

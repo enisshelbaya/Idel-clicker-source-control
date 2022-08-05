@@ -104,7 +104,7 @@ global.stats = {
 	  player_id:0,
 	  ads_watched:0,
 	  diamond_amount:0,
-	  ads_on:0
+	  ads_on:0,
   },
   
   

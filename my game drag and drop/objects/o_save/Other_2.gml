@@ -15,6 +15,7 @@
 			buffer_delete(_buffer);
 	
 			global.stats = json_parse(_string)
+			global.cloud_backup = true
 	
 		
 // gets current time since the unix and converts into seconds
@@ -69,7 +70,10 @@
 	else
 		{
 			global.game_has_never_ran = true
+			global.cloud_backup = false
 		}
+
+	
 
 
 if (global.stats.random_vars.player_id = 0)

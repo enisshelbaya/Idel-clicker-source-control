@@ -1,5 +1,5 @@
 /// @description Insert description here
-// You can write your code in this editor
+// You can write your code in this editorz
 var _string = json_stringify(global.stats);
 var _buffer = buffer_create(string_byte_length(_string) +1, buffer_fixed, +1)
 buffer_write(_buffer, buffer_string, _string)

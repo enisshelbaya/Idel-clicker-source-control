@@ -1,0 +1,9 @@
+{
+  "extensionId": {
+    "name": "Notch",
+    "path": "extensions/Notch/Notch.yy"
+  },
+  "resourceVersion": "1.0",
+  "resourceType": "GMExtensionConfigSet",
+  "configurables": null
+}

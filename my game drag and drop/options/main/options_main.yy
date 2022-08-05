@@ -10,7 +10,6 @@
   "option_author": "",
   "option_collision_compatibility": true,
   "option_copy_on_write_enabled": true,
-  "option_lastchanged": "09 December 2021 16:42:11",
   "option_spine_licence": false,
   "option_template_image": "template_image.png",
   "option_template_icon": "template_icon.png",
