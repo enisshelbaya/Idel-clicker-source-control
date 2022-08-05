@@ -196,7 +196,6 @@
     {"id":{"name":"title_screen","path":"fonts/title_screen/title_screen.yy",},"order":6,},
     {"id":{"name":"o_meat_grinder","path":"objects/o_meat_grinder/o_meat_grinder.yy",},"order":1,},
     {"id":{"name":"notification_sound","path":"sounds/notification_sound/notification_sound.yy",},"order":8,},
-    {"id":{"name":"obj_savegame","path":"objects/obj_savegame/obj_savegame.yy",},"order":37,},
     {"id":{"name":"time_warp_7_days_counter","path":"objects/time_warp_7_days_counter/time_warp_7_days_counter.yy",},"order":1,},
     {"id":{"name":"IAP_10000_diamond","path":"objects/IAP_10000_diamond/IAP_10000_diamond.yy",},"order":5,},
     {"id":{"name":"o_ad_manager","path":"objects/o_ad_manager/o_ad_manager.yy",},"order":2,},

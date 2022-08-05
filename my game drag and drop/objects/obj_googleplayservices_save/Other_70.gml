@@ -1,3 +1,8 @@
+/// @description Insert description here
+// You can write your code in this editor
+/// @description Insert description here
+// You can write your code in this editor
+
 
 show_debug_message("################### async_load is " + json_encode(async_load));
 switch(async_load[? "type"])
@@ -31,7 +36,7 @@ switch(async_load[? "type"])
 			onPlayerDeleteSave();
 			var path = "save_thumbnail.png"
 			
-			sprite_save_w(Spr_YoYo_button, 0, path);
+			sprite_save_w(save_thumnail, 0, path);
 
 			var data = global.stats;
 			
@@ -42,7 +47,7 @@ switch(async_load[? "type"])
 		}
 		else
 		{
-			GooglePlayServices_SavedGames_Open(obj_savegame.uniqueName);
+			GooglePlayServices_SavedGames_Open(Obj_GooglePlayServices_Save.uniqueName);
 		}
 		
 		break;
@@ -76,4 +81,5 @@ switch(async_load[? "type"])
 	break
 
 }
+
 

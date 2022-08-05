@@ -15,9 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"resolution_manager","path":"objects/resolution_manager/resolution_manager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1152.0,"y":96.0,"resourceVersion":"1.0","name":"inst_55D6EB9E","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_savegame","path":"objects/obj_savegame/obj_savegame.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1056.0,"y":96.0,"resourceVersion":"1.0","name":"inst_3522C75","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_GooglePlayServices_SignIn","path":"objects/Obj_GooglePlayServices_SignIn/Obj_GooglePlayServices_SignIn.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":11.38961,"scaleY":2.6623378,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":490.80518,"y":127.16884,"resourceVersion":"1.0","name":"inst_E916327","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_GooglePlayServices_Save","path":"objects/Obj_GooglePlayServices_Save/Obj_GooglePlayServices_Save.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":11.38961,"scaleY":2.6623378,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":490.80518,"y":575.1688,"resourceVersion":"1.0","name":"inst_1D3F68D9","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_GooglePlayServices_Show","path":"objects/Obj_GooglePlayServices_Show/Obj_GooglePlayServices_Show.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":11.38961,"scaleY":2.6623378,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":490.80518,"y":799.1688,"resourceVersion":"1.0","name":"inst_1BF1FF51","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_GooglePlayServices_Revoke","path":"objects/Obj_GooglePlayServices_Revoke/Obj_GooglePlayServices_Revoke.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":11.38961,"scaleY":2.6623378,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":490.80518,"y":351.16882,"resourceVersion":"1.0","name":"inst_218E7D3F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_GooglePlayServices_exit","path":"objects/Obj_GooglePlayServices_exit/Obj_GooglePlayServices_exit.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":11.805195,"scaleY":2.6623378,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":495.7922,"y":1279.9998,"resourceVersion":"1.0","name":"inst_48AC5524","tags":[],"resourceType":"GMRInstance",},
@@ -29,13 +27,11 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_1D3F68D9","path":"rooms/r_savegame/r_savegame.yy",},
     {"name":"inst_1BF1FF51","path":"rooms/r_savegame/r_savegame.yy",},
     {"name":"inst_E916327","path":"rooms/r_savegame/r_savegame.yy",},
     {"name":"inst_218E7D3F","path":"rooms/r_savegame/r_savegame.yy",},
     {"name":"inst_55D6EB9E","path":"rooms/r_savegame/r_savegame.yy",},
     {"name":"inst_48AC5524","path":"rooms/r_savegame/r_savegame.yy",},
-    {"name":"inst_3522C75","path":"rooms/r_savegame/r_savegame.yy",},
     {"name":"inst_26DD7216","path":"rooms/r_savegame/r_savegame.yy",},
   ],
   "inheritCreationOrder": false,

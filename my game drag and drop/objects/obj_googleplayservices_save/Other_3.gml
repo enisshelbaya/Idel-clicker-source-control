@@ -11,6 +11,6 @@ var data = global.stats;
 var jsonData = json_stringify(data);
 
 if(GooglePlayServices_IsSignedIn()){
-	GooglePlayServices_SavedGames_CommitAndClose(obj_savegame.uniqueName, obj_savegame.description, jsonData, path);
+	GooglePlayServices_SavedGames_CommitAndClose(Obj_GooglePlayServices_Save.uniqueName, Obj_GooglePlayServices_Save.description, jsonData, path);
 }
 }	
