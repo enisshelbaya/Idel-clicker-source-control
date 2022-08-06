@@ -10,7 +10,7 @@ else
 	// This function call will express an intent to login to the user account.
 	// It will present the user with a window to select account (can succeed or fail)
 	// Generates a Social Async callback 'GooglePlayServices_SignIn'
-	global.locked = false
+	global.locked = true
 	
 }
 

@@ -184,6 +184,7 @@ switch (_eventId)
                 if global.CurrentProducts[| i] == global.IAP_PurchaseID[0]
                     {
                    global.stats.random_vars.diamond_amount += 50;
+				   
 					
                     break;
                     }
