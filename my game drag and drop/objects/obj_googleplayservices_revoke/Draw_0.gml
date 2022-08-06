@@ -1,5 +1,5 @@
  x = view_wport[0]*0.5
- y = view_hport[0]*0.3
+ y = view_hport[0]*0.32
 draw_set_valign(fa_center)
 draw_set_halign(fa_center)
 draw_set_font(f_default)

@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "google cloud",
+    "path": "folders/Objects/google cloud.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_GooglePlayServices_exit",

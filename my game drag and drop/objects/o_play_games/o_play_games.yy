@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_YoYo_button",
-    "path": "sprites/Spr_YoYo_button/Spr_YoYo_button.yy",
+    "name": "s_play_games",
+    "path": "sprites/s_play_games/s_play_games.yy",
   },
   "solid": false,
   "visible": true,
@@ -12,7 +12,7 @@
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsGroup": 0,
+  "physicsGroup": 1,
   "physicsDensity": 0.5,
   "physicsRestitution": 0.1,
   "physicsLinearDamping": 0.1,
@@ -24,17 +24,18 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":13,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":2,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "google cloud",
-    "path": "folders/Objects/google cloud.yy",
+    "name": "menu buttons",
+    "path": "folders/Objects/menu buttons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_GooglePlayServices_Show",
+  "name": "o_play_games",
   "tags": [],
   "resourceType": "GMObject",
 }

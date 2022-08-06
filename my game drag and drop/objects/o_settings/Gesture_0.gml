@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_goto(r_savegame)
 if (global.drawn_1=0)
 {	
 	global.drawn_1=1
