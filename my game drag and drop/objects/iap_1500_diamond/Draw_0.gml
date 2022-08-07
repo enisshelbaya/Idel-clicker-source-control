@@ -11,7 +11,7 @@ draw_set_font(f_default)
 draw_set_halign(fa_left);
 draw_set_color(c_white)
 draw_set_valign(fa_bottom)
-draw_text_transformed(view_wport[0] *0.230,y+(view_hport[0]*0.05), "Cost: $13.31" ,2*(view_wport[0]/768),2*(view_wport[0]/768),0);
+draw_text_transformed(view_wport[0] *0.230,y+(view_hport[0]*0.05), "Cost: $39.93" ,2*(view_wport[0]/768),2*(view_wport[0]/768),0);
 draw_set_valign(fa_top)
 draw_set_font(Font4)
 draw_text_transformed(view_wport[0]*0.230,y-(view_hport[0]*0.05), "1500 Diamonds",1.5*(view_wport[0]/768),1.5*(view_wport[0]/768),0)
