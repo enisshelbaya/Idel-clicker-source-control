@@ -6,7 +6,7 @@ draw_set_color(c_white)
 draw_set_valign(fa_top)
 draw_text_transformed(view_wport[0]*0.30,time_warp_7_days.y-(view_hport[0]*0.07), "30 days Time Warp",1.5*(view_wport[0]/768),1.5*(view_wport[0]/768),0);
 draw_set_valign(fa_bottom)
-draw_text_transformed(view_wport[0] *0.30,time_warp_7_days.y+(view_hport[0]*0.07), "Cost: 20 Diamonds",1.5*(view_wport[0]/768),1.5*(view_wport[0]/768),0);
+draw_text_transformed(view_wport[0] *0.30,time_warp_7_days.y+(view_hport[0]*0.07), "Cost: 35 Diamonds",1.5*(view_wport[0]/768),1.5*(view_wport[0]/768),0);
 draw_set_valign(fa_middle)
 if ((global.stats.random_vars.manager_strength*604800)<1000000)
 {draw_text_transformed(view_wport[0]*0.30,time_warp_7_days.y, "You'll gain: " + string(floor(global.stats.random_vars.manager_strength*604800)),1.5*(view_wport[0]/768),1.5*(view_wport[0]/768),0)}

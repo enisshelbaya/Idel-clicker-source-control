@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_diamond",
-    "path": "sprites/s_diamond/s_diamond.yy",
+    "name": "s_menu",
+    "path": "sprites/s_menu/s_menu.yy",
   },
   "solid": false,
   "visible": true,

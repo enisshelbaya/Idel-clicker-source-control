@@ -69,7 +69,7 @@ switch(async_load[? "type"])
 
 		if(!async_load[? "success"]) exit;
 
-		alarm[0] = 90;
+
 		break;
 	
 	case "GooglePlayServices_SavedGames_DiscardAndClose":
