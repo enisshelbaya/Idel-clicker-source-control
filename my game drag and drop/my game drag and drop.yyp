@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"s_mom","path":"sprites/s_mom/s_mom.yy",},"order":26,},
+    {"id":{"name":"s_time_warp","path":"sprites/s_time_warp/s_time_warp.yy",},"order":21,},
     {"id":{"name":"o_deep_fryer","path":"objects/o_deep_fryer/o_deep_fryer.yy",},"order":1,},
     {"id":{"name":"Obj_YoYo_button","path":"objects/Obj_YoYo_button/Obj_YoYo_button.yy",},"order":3,},
     {"id":{"name":"o_stats","path":"objects/o_stats/o_stats.yy",},"order":4,},

@@ -44,3 +44,4 @@ clock "https://www.flaticon.com/free-icons/clock" Clock icons created by Freepik
 store Icon <a href="https://www.flaticon.com/free-icons/online-shop" title="online shop icons">Online shop icons created by Freepik - Flaticon</a>
 egg icon <a href="https://www.flaticon.com/free-icons/egg" title="egg icons">Egg icons created by AmethystDesign - Flaticon</a>
 diamond icons <a href="https://www.flaticon.com/free-icons/diamond" title="diamond icons">Diamond icons created by Alfredo Hernandez - Flaticon</a>
+target icon <a href="https://www.flaticon.com/free-icons/challenge" title="challenge icons">Challenge icons created by Freepik - Flaticon</a>

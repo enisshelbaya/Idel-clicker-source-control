@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_menu",
-    "path": "sprites/s_menu/s_menu.yy",
+    "name": "s_time_warp",
+    "path": "sprites/s_time_warp/s_time_warp.yy",
   },
   "solid": false,
   "visible": true,
