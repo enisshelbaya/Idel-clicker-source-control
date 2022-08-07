@@ -71,6 +71,14 @@
 		{
 			global.game_has_never_ran = true
 			global.cloud_backup = false
+				if (GooglePlayServices_IsSignedIn())
+						{
+							GooglePlayServices_SignOut();
+						}
+				else
+						{
+							GooglePlayServices_StartSignInIntent();
+						}
 		}
 
 	

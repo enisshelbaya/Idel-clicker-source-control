@@ -4,7 +4,8 @@
 // You can write your code in this editor
 
 
-
+if (o_save.time_diffrence < 1590000000)
+{
 	draw_set_alpha(0.8)
 	draw_roundrect_color_ext(view_wport[0]*0.05,view_hport[0]*0.39,view_wport[0]*0.95,view_hport[0]*0.62,50,50,c_black,c_black,0)
 	draw_set_alpha(1)
@@ -42,7 +43,6 @@
 		else {draw_text_transformed(view_wport[0]*0.5,x_2,  "and earned: " + string(round (o_save.Currency_increase)),1*(view_wport[0]/768),1*(view_wport[0]/768),0)}
 		}
 	
-
-
+}
 
 

@@ -28,7 +28,7 @@ if (global.run = true &&  global.game_has_never_ran = false )
 	draw_set_font(title_screen)
 	
 	
-	if(o_save.time_diffrence < 60)
+	if(o_save.time_diffrence < 60 )
 
 		{
 		draw_text_transformed(view_wport[0]*0.5,x_1, "you were gone for\n "  + string(o_save.time_diffrence) + " Seconds",1*(view_wport[0]/768),1*(view_wport[0]/768),0 )
