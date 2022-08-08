@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "678715066674",
-    "firebase_url": "https://idle-1b486-default-rtdb.firebaseio.com",
-    "project_id": "idle-1b486",
-    "storage_bucket": "idle-1b486.appspot.com"
+    "project_number": "466242532101",
+    "firebase_url": "https://idle-egg-88571470-default-rtdb.firebaseio.com",
+    "project_id": "idle-egg-88571470",
+    "storage_bucket": "idle-egg-88571470.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:678715066674:android:58708600403b4e3381ef2b",
+        "mobilesdk_app_id": "1:466242532101:android:c0b9300c1d25a59b6bbd6c",
         "android_client_info": {
           "package_name": "com.CaveStalactites.IdleClicker"
         }
       },
       "oauth_client": [
         {
-          "client_id": "678715066674-3a28k3tt3vmeshr9u60pdkpfnlb1bhg6.apps.googleusercontent.com",
+          "client_id": "466242532101-b2pveecn5vm7cp1jbadl7j5dp152j6vs.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.CaveStalactites.IdleClicker",
@@ -23,33 +23,25 @@
           }
         },
         {
-          "client_id": "678715066674-6cenu75pdspdafpet5rluvcpv5jg39i2.apps.googleusercontent.com",
+          "client_id": "466242532101-it4im7ade4m2sjbtpmf09574qqnd2gsg.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyALFwmA0WavpEYzsT4533UUhvdi8Wb2E1c"
+          "current_key": "AIzaSyAmgTzjZamp4fACx2coKGmn3c0N1GktlZo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "678715066674-6cenu75pdspdafpet5rluvcpv5jg39i2.apps.googleusercontent.com",
+              "client_id": "466242532101-it4im7ade4m2sjbtpmf09574qqnd2gsg.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "678715066674-993dushujivr406p845n6ddf2kq8655i.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.CaveStalactites.IdleClicker"
-              }
             }
           ]
         }
-      },
-      "admob_app_id": "ca-app-pub-2634035507329430~1307062832"
+      }
     }
   ],
   "configuration_version": "1"

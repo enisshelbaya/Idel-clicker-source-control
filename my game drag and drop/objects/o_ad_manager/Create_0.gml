@@ -33,9 +33,9 @@ if(os_type == os_android)
 	
 	// these are real ids that should be used when the app is getting released 
 	/*
-	BANNER_ID = "";
-	INTERSTITIAL_ID ="";
-	REWANTED_ID = "";	
+	BANNER_ID = "ca-app-pub-4262622966804281/9547468096";
+	INTERSTITIAL_ID ="ca-app-pub-4262622966804281/2982059741";
+	REWANTED_ID = "ca-app-pub-4262622966804281/1818804279";	
 	*/
 }
 

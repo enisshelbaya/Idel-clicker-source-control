@@ -176,7 +176,7 @@
     "inheritViewSettings": false,
     "enableViews": true,
     "clearViewBackground": false,
-    "clearDisplayBuffer": false,
+    "clearDisplayBuffer": true,
   },
   "physicsSettings": {
     "inheritPhysicsSettings": false,

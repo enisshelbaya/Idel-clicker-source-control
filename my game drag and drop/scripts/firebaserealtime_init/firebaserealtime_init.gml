@@ -1,5 +1,5 @@
 		
-#macro Firebase_RealTime_URL "https://idle-1b486-default-rtdb.firebaseio.com/"
+#macro Firebase_RealTime_URL "https://idle-egg-88571470-default-rtdb.firebaseio.com/"
 
 
 #macro FirebaseRealTime_LibraryOptions_SDKOnly "SDKs_Only"
