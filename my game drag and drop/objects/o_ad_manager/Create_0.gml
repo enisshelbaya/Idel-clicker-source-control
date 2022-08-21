@@ -25,18 +25,7 @@ AdMob_SetTestDeviceId();
 var INTERSTITIAL_ID,REWANTED_ID,BANNER_ID;
 if(os_type == os_android)
 {
-	//test ids
-	
-	BANNER_ID = "ca-app-pub-3940256099942544/6300978111";
-	INTERSTITIAL_ID ="ca-app-pub-3940256099942544/1033173712";
-	REWANTED_ID = "ca-app-pub-3940256099942544/5224354917";	
-	
-	// these are real ids that should be used when the app is getting released 
-	/*
-	BANNER_ID = "ca-app-pub-4262622966804281/9547468096";
-	INTERSTITIAL_ID ="ca-app-pub-4262622966804281/2982059741";
-	REWANTED_ID = "ca-app-pub-4262622966804281/1818804279";	
-	*/
+	#These are Hidden so You can't steal them
 }
 
 
