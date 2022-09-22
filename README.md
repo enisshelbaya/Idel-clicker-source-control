@@ -1,2 +1,2 @@
 # Idel-clicker-source-control
- idle clicker game
+This is the public version of my game respostiory with api keys and sensitive data and files removed. 
