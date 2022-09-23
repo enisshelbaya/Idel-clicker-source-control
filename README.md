@@ -1,2 +1,2 @@
 # Idel-clicker-source-control
-This is the public version of my game respostiory with api keys and sensitive data and files removed. 
+This is the public version of my game respostiory with all api keys are out of date and don't work
